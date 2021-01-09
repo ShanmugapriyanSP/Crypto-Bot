@@ -1,1 +1,1 @@
-# BTC_TradingBot
+# Crypto_TradingBot
