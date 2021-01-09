@@ -44,7 +44,7 @@ class ExchgData:
         'ts': 0
     }
 
-    def __init__(self, exchange, symbol=u'BTC/USDT', logfile='full.log'):
+    def __init__(self, exchange, symbol=u'BTC/USDT', logfile='logs/full.log'):
         if exchange in self.known_exchanges:
             if exchange == 'bfx':
                 self.exchange = ccxt.bitfinex2({

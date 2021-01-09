@@ -1,0 +1,25 @@
+[2021-01-10 00:22:14,717][INFO][__main__] Logger initialized
+[2021-01-10 00:22:24,852][INFO][__main__] hist is -65.97
+[2021-01-10 00:22:34,854][INFO][__main__] hist is -65.35
+[2021-01-10 00:22:35,331][INFO][__main__] shorts-->>0
+[2021-01-10 00:22:35,332][INFO][__main__] longs-->>0
+[2021-01-10 00:22:36,204][INFO][__main__]  Last price is: 40634.1300, VWAP is 40166.9235
+[2021-01-10 00:22:36,204][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-10 00:22:36,204][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-10 00:25:24,893][INFO][__main__] Logger initialized
+[2021-01-10 00:25:35,040][INFO][__main__] hist is -58.11
+[2021-01-10 00:25:45,037][INFO][__main__] hist is -65.57
+[2021-01-10 00:25:45,288][INFO][__main__] shorts-->>0
+[2021-01-10 00:25:45,289][INFO][__main__] longs-->>0
+[2021-01-10 00:25:46,175][INFO][__main__]  Last price is: 40641.4900, VWAP is 40166.5565
+[2021-01-10 00:25:46,176][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-10 00:25:46,176][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-10 00:27:34,666][INFO][__main__] Logger initialized
+[2021-01-10 00:27:44,426][INFO][__main__] Logger initialized
+[2021-01-10 00:27:54,566][INFO][__main__] hist is -34.96
+[2021-01-10 00:28:04,579][INFO][__main__] hist is -30.81
+[2021-01-10 00:28:04,839][INFO][__main__] shorts-->>0
+[2021-01-10 00:28:04,839][INFO][__main__] longs-->>0
+[2021-01-10 00:28:05,478][INFO][__main__]  Last price is: 40658.3500, VWAP is 40166.7444
+[2021-01-10 00:28:05,478][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-10 00:28:05,478][INFO][__main__] Loop completed, sleeping for 30 seconds

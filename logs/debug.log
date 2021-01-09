@@ -1,0 +1,3 @@
+[2021-01-10 00:27:34,488][INFO][mexorders] Logger initialized
+[2021-01-10 00:27:44,254][INFO][mexorders] Logger initialized
+[2021-01-10 00:28:05,341][INFO][mexorders] Balance Info: {'info': {'makerCommission': 10, 'takerCommission': 10, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': 1598893037670, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}, 'free': {}, 'used': {}, 'total': {}}

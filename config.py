@@ -23,8 +23,8 @@ headers = {
 'Cache-Control': "no-cache",
 }
 
-logfiles = {'main': 'main.log',
-            'debug': 'debug.log'
+logfiles = {'main': 'logs/main.log',
+            'debug': 'logs/debug.log'
             }
 
 ordersize = 1
