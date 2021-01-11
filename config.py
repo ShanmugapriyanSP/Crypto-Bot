@@ -4,8 +4,8 @@ binance_test = False
 # bitmex_auth = {'apiKey': 'jFJQfp3GQFBEw2dvW9s0VKUL',
 #                'secret': 'pUCJphetpR8c86HdQKkYqf1DUhP0BSqXw09KUCIwh0ZLD9hb',
 #                }
-binance_auth = {'apiKey': 'mPdPO45Augx7jnQogJexCJzHH9kimiIrZ7HsroZbMKdrtHEd2TR2Eiw4MNTLQVkE',
-               'secret': 'LzwoKpIiyTO7MUAx8R150LBvQdaQXMyyIZXPQfMmEOM1Z54NGvNbj3zPEE0heBB9',
+binance_auth = {'apiKey': '',
+               'secret': '',
                }
 # twilio_conf = {
 #     'account_sid': '',
