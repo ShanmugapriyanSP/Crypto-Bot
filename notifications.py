@@ -35,7 +35,7 @@ import smtplib
 # SET EMAIL LOGIN REQUIREMENTS
 # =============================================================================
 gmail_user = 'spshanmugapriyan641@gmail.com'
-gmail_app_password = 'Riskrider96'
+gmail_app_password = ''
 
 # =============================================================================
 # SET THE INFO ABOUT THE SAID EMAIL
