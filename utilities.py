@@ -48,4 +48,4 @@ def ochlv_split(ochlv):
         l.append(ochlv[ii][4])
         v.append(ochlv[ii][5])
 
-    return (t, o, c, h, l, v)
+    return t, o, c, h, l, v

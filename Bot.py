@@ -68,13 +68,14 @@ def hist_positive(exchgdata, tf):
 
 
 sleeptime = 30
-# send_sms('\nBot Active!')
+send_email('\nBot Active!')
 hist_tf = '1m'
 
 binance_data = ExchgData.ExchgData('binance')
 
 last_hist_positive = hist_positive(binance_data, hist_tf)
 curr_hist_positive = last_hist_positive
+
 
 while [1]:
     log.debug("Main loop")
@@ -91,6 +92,7 @@ while [1]:
     buybelow = vwap
     # sellabove  =  1000
     sellabove = vwap
+    # mexorders.smart_order('Buy', shorts + config.ordersize)
     # if 1d kvo has flipped, flip positions
     if curr_hist_positive and not last_hist_positive:
         print('Inside if')
@@ -119,7 +121,7 @@ while [1]:
             else:
                 mexorders.cancel_open_orders()
                 time.sleep(1)
-                mexorders.smart_order('Buy', shorts+config.ordersize)
+                # mexorders.smart_order('Buy', shorts+config.ordersize)
                 if longs == 0:
                     send_email("%s %s %s" % ( \
                         ("\nBuy signal!! KVO flipped positive and price is: " + str(last)), \
@@ -148,7 +150,7 @@ while [1]:
                 if last - breakEvenPrice > 15:
                     mexorders.cancel_open_orders()
                     time.sleep(1)
-                    mexorders.smart_order('Sell', longs+config.ordersize)
+                    # mexorders.smart_order('Sell', longs+config.ordersize)
                     send_email("%s %s %s %s %s" % ( \
                         ("\nSell signal!! KVO flipped negative and price is: " + str(last)), \
                         (". VWAP is: " + str(vwap)), \
@@ -166,7 +168,7 @@ while [1]:
             else:
                 mexorders.cancel_open_orders()
                 time.sleep(1)
-                mexorders.smart_order('Buy', longs+config.ordersize)
+                # mexorders.smart_order('Buy', longs+config.ordersize)
                 if longs == 0:
                     send_email("%s %s %s" % ( \
                         ("\nSell signal!! KVO flipped negative and price is: " + str(last)), \
@@ -192,11 +194,18 @@ while [1]:
     # now print some status info
     mexorders.print_positions()
     mexorders.print_open_orders()
-    totalbal = mexorders.get_balance_total()
-    # totalbal = 0.0
-    freebal = mexorders.get_balance_free()
-    # freebal = 0.0
+    balanceInfo = mexorders.get_balance()
+    totalbal_btc, freebal_btc, totalbal_usd, freebal_usd = 0.0, 0.0, 0.0, 0.0
+    if balanceInfo is not None and "BTC" in balanceInfo['total'].keys():
+        totalbal_btc = balanceInfo["total"]["BTC"]
+    if balanceInfo is not None and "BTC" in balanceInfo['free'].keys():
+        freebal_btc = balanceInfo["free"]["BTC"]
+    if balanceInfo is not None and "USDT" in balanceInfo['total'].keys():
+        totalbal_usd = balanceInfo["total"]["USDT"]
+    if balanceInfo is not None and "USDT" in balanceInfo['free'].keys():
+        freebal_usd = balanceInfo["free"]["USDT"]
     log.info(" Last price is: %.4f, VWAP is %.4f" % (last, vwap))
-    log.info("Total Balance: %.4f, Free Balance: %.4f" % (totalbal, freebal))
+    log.info("Total Balance BTC: %.10f, Free Balance BTC: %.10f" % (totalbal_btc, freebal_btc))
+    log.info("Total Balance USDT: %.10f, Free Balance USDT: %.10f" % (totalbal_usd, freebal_usd))
     log.info("Loop completed, sleeping for %d seconds" % sleeptime)
     time.sleep(sleeptime)

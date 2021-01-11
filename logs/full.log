@@ -71,3 +71,969 @@
 [2021-01-10 00:28:05,478][INFO][__main__]  Last price is: 40658.3500, VWAP is 40166.7444
 [2021-01-10 00:28:05,478][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
 [2021-01-10 00:28:05,478][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 13:50:54,836][INFO][__main__] Logger initialized
+[2021-01-11 13:50:54,850][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 13:50:54,850][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 13:50:54,850][DEBUG][ExchgData.ExchgData] tf 1m not in candles keys
+[2021-01-11 13:50:54,850][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 2040
+[2021-01-11 13:50:54,850][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610351214840 to end 1610353254850
+[2021-01-11 13:50:54,850][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 13:50:54,851][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610351214840, limit 35
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] Last candle ts: 11 13:51
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] Fetched 35 candles
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] Current candles: 35
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] Preloading candles for tf 1m, lookback 34
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:47, O: 35591.89, H: 35598, L: 35408.32, C: 35448.26, V: 215.73
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:48, O: 35448.26, H: 35470, L: 35356.66, C: 35440.78, V: 115.81
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:49, O: 35436.27, H: 35445, L: 35346.20, C: 35384.07, V: 158.82
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:50, O: 35373.80, H: 35402, L: 35100.95, C: 35265.28, V: 246.01
+[2021-01-11 13:51:04,992][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:51, O: 35265.28, H: 35279, L: 35262.96, C: 35264.30, V: 5.08
+[2021-01-11 13:51:04,996][INFO][__main__] hist is -251.03
+[2021-01-11 13:51:04,996][DEBUG][__main__] Main loop
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] Last TS: 1610353260000
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] Last ts is 1610353260000
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] Lag is 5
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] current length for tf 1m is 35
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610353200000 to end 1610353265618
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 13:51:05,618][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610353200000, limit 2
+[2021-01-11 13:51:15,005][DEBUG][ExchgData.ExchgData] Last candle ts: 11 13:51
+[2021-01-11 13:51:15,005][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] Last TS: 1610353200000
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 13:50
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 5 less than 60
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] Last TS: 1610353260000
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 13:51
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:47, O: 35591.89, H: 35598, L: 35408.32, C: 35448.26, V: 215.73
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:48, O: 35448.26, H: 35470, L: 35356.66, C: 35440.78, V: 115.81
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:49, O: 35436.27, H: 35445, L: 35346.20, C: 35384.07, V: 158.82
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:50, O: 35373.80, H: 35402, L: 35100.95, C: 35265.28, V: 246.01
+[2021-01-11 13:51:15,006][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:51, O: 35265.28, H: 35282, L: 35222.91, C: 35250.43, V: 19.36
+[2021-01-11 13:51:15,007][INFO][__main__] hist is -292.37
+[2021-01-11 13:51:15,273][INFO][__main__] shorts-->>0
+[2021-01-11 13:51:15,274][INFO][__main__] longs-->>0
+[2021-01-11 13:51:15,910][INFO][__main__]  Last price is: 35248.5000, VWAP is 36901.5245
+[2021-01-11 13:51:15,910][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 13:51:15,911][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 13:51:45,921][DEBUG][__main__] Main loop
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] Last TS: 1610353260000
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] Last ts is 1610353260000
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] Lag is 46
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] current length for tf 1m is 35
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610353200000 to end 1610353306182
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 13:51:46,182][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610353200000, limit 2
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] Last candle ts: 11 13:51
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] Last TS: 1610353200000
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 13:50
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 46 less than 60
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] Last TS: 1610353260000
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 13:51
+[2021-01-11 13:51:46,308][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:47, O: 35591.89, H: 35598, L: 35408.32, C: 35448.26, V: 215.73
+[2021-01-11 13:51:46,309][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:48, O: 35448.26, H: 35470, L: 35356.66, C: 35440.78, V: 115.81
+[2021-01-11 13:51:46,309][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:49, O: 35436.27, H: 35445, L: 35346.20, C: 35384.07, V: 158.82
+[2021-01-11 13:51:46,309][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:50, O: 35373.80, H: 35402, L: 35100.95, C: 35265.28, V: 246.01
+[2021-01-11 13:51:46,309][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:51, O: 35265.28, H: 35282, L: 35135.64, C: 35191.77, V: 64.95
+[2021-01-11 13:51:46,309][INFO][__main__] hist is -347.54
+[2021-01-11 13:51:46,798][INFO][__main__] shorts-->>0
+[2021-01-11 13:51:46,798][INFO][__main__] longs-->>0
+[2021-01-11 13:51:47,448][INFO][__main__]  Last price is: 35196.4900, VWAP is 36900.7721
+[2021-01-11 13:51:47,448][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 13:51:47,448][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 13:52:17,461][DEBUG][__main__] Main loop
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] Last TS: 1610353260000
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] Last ts is 1610353260000
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] Lag is 77
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] current length for tf 1m is 35
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610353200000 to end 1610353337714
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 13:52:17,714][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610353200000, limit 3
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Last candle ts: 11 13:52
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 77 greater than 60
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] it 0, ts 1610353200000
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Last TS: 1610353260000
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 13:51
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Last TS: 1610353200000
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 13:50
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Last TS: 1610353320000
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 13:51, 11 13:52
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Resizing candles to 35
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] Last TS: 1610353320000
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] New last timestamp is 1610353320000
+[2021-01-11 13:52:17,841][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:48, O: 35448.26, H: 35470, L: 35356.66, C: 35440.78, V: 115.81
+[2021-01-11 13:52:17,842][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:49, O: 35436.27, H: 35445, L: 35346.20, C: 35384.07, V: 158.82
+[2021-01-11 13:52:17,842][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:50, O: 35373.80, H: 35402, L: 35100.95, C: 35265.28, V: 246.01
+[2021-01-11 13:52:17,842][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:51, O: 35265.28, H: 35282, L: 35135.64, C: 35179.14, V: 105.40
+[2021-01-11 13:52:17,842][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:52, O: 35179.13, H: 35250, L: 35178.68, C: 35248.27, V: 27.28
+[2021-01-11 13:52:17,842][INFO][__main__] hist is -283.73
+[2021-01-11 13:52:18,122][INFO][__main__] shorts-->>0
+[2021-01-11 13:52:18,122][INFO][__main__] longs-->>0
+[2021-01-11 13:52:19,249][INFO][__main__]  Last price is: 35243.7200, VWAP is 36899.6341
+[2021-01-11 13:52:19,249][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 13:52:19,249][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 13:52:49,262][DEBUG][__main__] Main loop
+[2021-01-11 13:52:49,536][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 13:52:49,536][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 13:52:49,536][DEBUG][ExchgData.ExchgData] Last TS: 1610353320000
+[2021-01-11 13:52:49,536][DEBUG][ExchgData.ExchgData] Last ts is 1610353320000
+[2021-01-11 13:52:49,536][DEBUG][ExchgData.ExchgData] Lag is 49
+[2021-01-11 13:52:49,536][DEBUG][ExchgData.ExchgData] current length for tf 1m is 35
+[2021-01-11 13:52:49,536][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610353260000 to end 1610353369536
+[2021-01-11 13:52:49,537][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 13:52:49,537][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610353260000, limit 2
+[2021-01-11 13:52:49,665][DEBUG][ExchgData.ExchgData] Last candle ts: 11 13:52
+[2021-01-11 13:52:49,665][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 13:52:49,665][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 13:52:49,665][DEBUG][ExchgData.ExchgData] Last TS: 1610353260000
+[2021-01-11 13:52:49,665][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 13:51
+[2021-01-11 13:52:49,666][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 49 less than 60
+[2021-01-11 13:52:49,666][DEBUG][ExchgData.ExchgData] Last TS: 1610353320000
+[2021-01-11 13:52:49,666][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 13:52
+[2021-01-11 13:52:49,666][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:48, O: 35448.26, H: 35470, L: 35356.66, C: 35440.78, V: 115.81
+[2021-01-11 13:52:49,666][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:49, O: 35436.27, H: 35445, L: 35346.20, C: 35384.07, V: 158.82
+[2021-01-11 13:52:49,666][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:50, O: 35373.80, H: 35402, L: 35100.95, C: 35265.28, V: 246.01
+[2021-01-11 13:52:49,666][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:51, O: 35265.28, H: 35282, L: 35135.64, C: 35179.14, V: 105.40
+[2021-01-11 13:52:49,666][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 13:52, O: 35179.13, H: 35350, L: 35178.68, C: 35332.13, V: 80.62
+[2021-01-11 13:52:49,666][INFO][__main__] hist is -289.72
+[2021-01-11 13:52:49,926][INFO][__main__] shorts-->>0
+[2021-01-11 13:52:49,926][INFO][__main__] longs-->>0
+[2021-01-11 13:52:51,035][INFO][__main__]  Last price is: 35332.1300, VWAP is 36898.8857
+[2021-01-11 13:52:51,035][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 13:52:51,035][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 21:50:42,208][INFO][__main__] Logger initialized
+[2021-01-11 21:50:42,216][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 21:50:42,216][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 21:50:42,216][DEBUG][ExchgData.ExchgData] tf 1m not in candles keys
+[2021-01-11 21:50:42,216][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 2040
+[2021-01-11 21:50:42,216][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610380002180 to end 1610382042216
+[2021-01-11 21:50:42,216][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 21:50:42,216][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610380002180, limit 35
+[2021-01-11 21:50:52,355][DEBUG][ExchgData.ExchgData] Last candle ts: 11 21:50
+[2021-01-11 21:50:52,355][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-11 21:50:52,355][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-11 21:50:52,356][DEBUG][ExchgData.ExchgData] Preloading candles for tf 1m, lookback 34
+[2021-01-11 21:50:52,356][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:46, O: 30957.64, H: 30975, L: 30750.00, C: 30862.13, V: 232.77
+[2021-01-11 21:50:52,356][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:47, O: 30861.52, H: 30886, L: 30660.00, C: 30712.53, V: 366.08
+[2021-01-11 21:50:52,356][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:48, O: 30712.52, H: 30736, L: 30570.00, C: 30584.10, V: 441.22
+[2021-01-11 21:50:52,356][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:49, O: 30597.83, H: 31101, L: 30570.00, C: 30951.39, V: 576.05
+[2021-01-11 21:50:52,356][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:50, O: 30951.39, H: 30986, L: 30683.38, C: 30913.06, V: 341.52
+[2021-01-11 21:50:52,410][INFO][__main__] hist is 226.51
+[2021-01-11 21:50:52,411][DEBUG][__main__] Main loop
+[2021-01-11 21:50:53,062][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 21:50:53,062][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 21:50:53,062][DEBUG][ExchgData.ExchgData] Last TS: 1610382000000
+[2021-01-11 21:50:53,062][DEBUG][ExchgData.ExchgData] Last ts is 1610382000000
+[2021-01-11 21:50:53,062][DEBUG][ExchgData.ExchgData] Lag is 53
+[2021-01-11 21:50:53,062][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 21:50:53,062][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610381940000 to end 1610382053062
+[2021-01-11 21:50:53,063][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 21:50:53,063][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610381940000, limit 2
+[2021-01-11 21:51:02,358][DEBUG][ExchgData.ExchgData] Last candle ts: 11 21:50
+[2021-01-11 21:51:02,358][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 21:51:02,358][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] Last TS: 1610381940000
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 21:49
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 53 less than 60
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] Last TS: 1610382000000
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 21:50
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:46, O: 30957.64, H: 30975, L: 30750.00, C: 30862.13, V: 232.77
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:47, O: 30861.52, H: 30886, L: 30660.00, C: 30712.53, V: 366.08
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:48, O: 30712.52, H: 30736, L: 30570.00, C: 30584.10, V: 441.22
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:49, O: 30597.83, H: 31101, L: 30570.00, C: 30951.39, V: 576.05
+[2021-01-11 21:51:02,359][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:50, O: 30951.39, H: 30986, L: 30614.22, C: 30833.69, V: 418.29
+[2021-01-11 21:51:02,360][INFO][__main__] hist is 269.00
+[2021-01-11 21:51:02,855][INFO][__main__] shorts-->>0
+[2021-01-11 21:51:02,856][INFO][__main__] longs-->>0
+[2021-01-11 21:51:03,530][INFO][__main__]  Last price is: 30919.1200, VWAP is 35160.1595
+[2021-01-11 21:51:03,531][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 21:51:03,531][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 21:51:33,543][DEBUG][__main__] Main loop
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] Last TS: 1610382000000
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] Last ts is 1610382000000
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] Lag is 93
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610381940000 to end 1610382093834
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 21:51:33,834][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610381940000, limit 3
+[2021-01-11 21:51:33,961][DEBUG][ExchgData.ExchgData] Last candle ts: 11 21:51
+[2021-01-11 21:51:33,961][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 21:51:33,961][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 21:51:33,961][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 93 greater than 60
+[2021-01-11 21:51:33,961][DEBUG][ExchgData.ExchgData] it 0, ts 1610381940000
+[2021-01-11 21:51:33,961][DEBUG][ExchgData.ExchgData] Last TS: 1610382000000
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 21:50
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] Last TS: 1610381940000
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 21:49
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] Last TS: 1610382060000
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 21:50, 11 21:51
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] Last TS: 1610382060000
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] New last timestamp is 1610382060000
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:47, O: 30861.52, H: 30886, L: 30660.00, C: 30712.53, V: 366.08
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:48, O: 30712.52, H: 30736, L: 30570.00, C: 30584.10, V: 441.22
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:49, O: 30597.83, H: 31101, L: 30570.00, C: 30951.39, V: 576.05
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:50, O: 30951.39, H: 30986, L: 30614.22, C: 30833.69, V: 418.29
+[2021-01-11 21:51:33,962][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 21:51, O: 30819.05, H: 31196, L: 30767.30, C: 31188.53, V: 333.44
+[2021-01-11 21:51:33,963][INFO][__main__] hist is 476.05
+[2021-01-11 21:51:34,298][INFO][__main__] shorts-->>0
+[2021-01-11 21:51:34,298][INFO][__main__] longs-->>0
+[2021-01-11 21:51:35,076][INFO][__main__]  Last price is: 31208.4300, VWAP is 35154.6030
+[2021-01-11 21:51:35,076][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 21:51:35,076][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 22:19:32,038][INFO][__main__] Logger initialized
+[2021-01-11 22:19:32,061][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:19:32,995][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 22:19:50,151][INFO][__main__] Logger initialized
+[2021-01-11 22:19:50,158][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:19:51,462][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 22:20:18,494][INFO][__main__] Logger initialized
+[2021-01-11 22:20:18,501][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:20:19,578][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 22:20:33,725][INFO][__main__] Logger initialized
+[2021-01-11 22:20:33,732][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:20:34,738][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 22:20:48,371][INFO][__main__] Logger initialized
+[2021-01-11 22:20:48,378][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:20:49,228][INFO][__main__] Total Balance: 0.0000007900, Free Balance: 0.0000007900
+[2021-01-11 22:27:18,376][INFO][__main__] Logger initialized
+[2021-01-11 22:27:18,382][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:28:03,370][INFO][__main__] Logger initialized
+[2021-01-11 22:28:03,376][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:28:04,145][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-11 22:28:04,145][INFO][__main__] Total Balance USDT: 0.0000000000, Free Balance USDT: 0.0000000000
+[2021-01-11 22:28:30,835][INFO][__main__] Logger initialized
+[2021-01-11 22:28:30,842][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:28:31,569][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 22:28:31,569][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 22:41:16,926][INFO][__main__] Logger initialized
+[2021-01-11 22:41:30,274][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 22:41:30,274][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 22:41:30,274][DEBUG][ExchgData.ExchgData] tf 1m not in candles keys
+[2021-01-11 22:41:30,274][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 2040
+[2021-01-11 22:41:30,274][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610383050240 to end 1610385090274
+[2021-01-11 22:41:30,274][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 22:41:30,274][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610383050240, limit 35
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] Last candle ts: 11 22:41
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] Preloading candles for tf 1m, lookback 34
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:37, O: 30806.37, H: 31038, L: 30795.58, C: 31026.89, V: 210.89
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:38, O: 31013.12, H: 31064, L: 30900.00, C: 31053.89, V: 148.14
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:39, O: 31054.21, H: 31509, L: 31048.88, C: 31443.28, V: 296.75
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:40, O: 31443.28, H: 31505, L: 31314.92, C: 31344.17, V: 388.89
+[2021-01-11 22:41:40,407][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:41, O: 31328.60, H: 31329, L: 31100.00, C: 31173.80, V: 120.61
+[2021-01-11 22:41:40,411][INFO][__main__] hist is 413.11
+[2021-01-11 22:41:40,411][DEBUG][__main__] Main loop
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] Last TS: 1610385060000
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] Last ts is 1610385060000
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] Lag is 40
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610385000000 to end 1610385100958
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 22:41:40,958][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610385000000, limit 2
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] Last candle ts: 11 22:41
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] Last TS: 1610385000000
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 22:40
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 40 less than 60
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] Last TS: 1610385060000
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 22:41
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:37, O: 30806.37, H: 31038, L: 30795.58, C: 31026.89, V: 210.89
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:38, O: 31013.12, H: 31064, L: 30900.00, C: 31053.89, V: 148.14
+[2021-01-11 22:41:50,425][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:39, O: 31054.21, H: 31509, L: 31048.88, C: 31443.28, V: 296.75
+[2021-01-11 22:41:50,426][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:40, O: 31443.28, H: 31505, L: 31314.92, C: 31344.17, V: 388.89
+[2021-01-11 22:41:50,426][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 22:41, O: 31328.60, H: 31329, L: 31100.00, C: 31154.55, V: 141.70
+[2021-01-11 22:41:50,426][INFO][__main__] hist is 408.99
+[2021-01-11 22:41:50,697][INFO][__main__] shorts-->>0
+[2021-01-11 22:41:50,698][INFO][__main__] longs-->>0
+[2021-01-11 22:41:51,964][INFO][__main__]  Last price is: 31160.6900, VWAP is 34864.0093
+[2021-01-11 22:41:51,964][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 22:41:51,964][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 22:41:51,964][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:16:21,592][INFO][__main__] Logger initialized
+[2021-01-11 23:16:36,208][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 23:16:36,209][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:16:36,209][DEBUG][ExchgData.ExchgData] tf 1m not in candles keys
+[2021-01-11 23:16:36,209][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 2040
+[2021-01-11 23:16:36,209][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610385156180 to end 1610387196209
+[2021-01-11 23:16:36,209][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:16:36,209][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610385156180, limit 35
+[2021-01-11 23:16:46,335][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:16
+[2021-01-11 23:16:46,335][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-11 23:16:46,335][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-11 23:16:46,335][DEBUG][ExchgData.ExchgData] Preloading candles for tf 1m, lookback 34
+[2021-01-11 23:16:46,335][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:12, O: 33549.49, H: 33561, L: 33400.00, C: 33413.38, V: 352.89
+[2021-01-11 23:16:46,335][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:13, O: 33413.38, H: 33423, L: 33147.82, C: 33296.32, V: 452.90
+[2021-01-11 23:16:46,335][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:14, O: 33298.97, H: 33315, L: 32947.24, C: 33028.88, V: 458.95
+[2021-01-11 23:16:46,336][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:15, O: 33057.12, H: 33229, L: 32678.97, C: 32831.49, V: 439.98
+[2021-01-11 23:16:46,336][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:16, O: 32793.71, H: 33069, L: 32791.07, C: 32835.80, V: 197.96
+[2021-01-11 23:16:46,338][INFO][__main__] hist is -99.75
+[2021-01-11 23:16:46,338][DEBUG][__main__] Main loop
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] Last TS: 1610387160000
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] Last ts is 1610387160000
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] Lag is 46
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610387100000 to end 1610387206869
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:16:46,869][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610387100000, limit 2
+[2021-01-11 23:16:56,349][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:16
+[2021-01-11 23:16:56,349][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:16:56,349][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:16:56,349][DEBUG][ExchgData.ExchgData] Last TS: 1610387100000
+[2021-01-11 23:16:56,349][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:15
+[2021-01-11 23:16:56,349][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 46 less than 60
+[2021-01-11 23:16:56,349][DEBUG][ExchgData.ExchgData] Last TS: 1610387160000
+[2021-01-11 23:16:56,349][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:16
+[2021-01-11 23:16:56,350][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:12, O: 33549.49, H: 33561, L: 33400.00, C: 33413.38, V: 352.89
+[2021-01-11 23:16:56,350][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:13, O: 33413.38, H: 33423, L: 33147.82, C: 33296.32, V: 452.90
+[2021-01-11 23:16:56,350][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:14, O: 33298.97, H: 33315, L: 32947.24, C: 33028.88, V: 458.95
+[2021-01-11 23:16:56,350][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:15, O: 33057.12, H: 33229, L: 32678.97, C: 32831.49, V: 439.98
+[2021-01-11 23:16:56,350][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:16, O: 32793.71, H: 33069, L: 32791.07, C: 32830.43, V: 227.67
+[2021-01-11 23:16:56,350][INFO][__main__] hist is -142.94
+[2021-01-11 23:16:56,627][INFO][__main__] shorts-->>0
+[2021-01-11 23:16:56,628][INFO][__main__] longs-->>0
+[2021-01-11 23:38:04,714][INFO][__main__] Logger initialized
+[2021-01-11 23:38:19,632][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 23:38:19,632][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:38:19,632][DEBUG][ExchgData.ExchgData] tf 1m not in candles keys
+[2021-01-11 23:38:19,632][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 2040
+[2021-01-11 23:38:19,632][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610386459620 to end 1610388499632
+[2021-01-11 23:38:19,632][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:38:19,632][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610386459620, limit 35
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:38
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] Preloading candles for tf 1m, lookback 34
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:34, O: 32943.02, H: 33040, L: 32816.38, C: 32997.49, V: 190.05
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:35, O: 32997.49, H: 32998, L: 32817.92, C: 32859.91, V: 149.33
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:36, O: 32859.91, H: 32911, L: 32769.05, C: 32877.80, V: 105.93
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:37, O: 32878.00, H: 32914, L: 32729.36, C: 32851.67, V: 136.36
+[2021-01-11 23:38:29,760][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:38, O: 32851.67, H: 32891, L: 32718.81, C: 32746.63, V: 54.30
+[2021-01-11 23:38:29,764][INFO][__main__] hist is -47.47
+[2021-01-11 23:38:29,764][DEBUG][__main__] Main loop
+[2021-01-11 23:38:30,294][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:38:30,294][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:38:30,294][DEBUG][ExchgData.ExchgData] Last TS: 1610388480000
+[2021-01-11 23:38:30,295][DEBUG][ExchgData.ExchgData] Last ts is 1610388480000
+[2021-01-11 23:38:30,295][DEBUG][ExchgData.ExchgData] Lag is 30
+[2021-01-11 23:38:30,295][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:38:30,295][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610388420000 to end 1610388510295
+[2021-01-11 23:38:30,295][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:38:30,295][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610388420000, limit 2
+[2021-01-11 23:38:39,784][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:38
+[2021-01-11 23:38:39,784][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:38:39,784][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:38:39,784][DEBUG][ExchgData.ExchgData] Last TS: 1610388420000
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:37
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 30 less than 60
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] Last TS: 1610388480000
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:38
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:34, O: 32943.02, H: 33040, L: 32816.38, C: 32997.49, V: 190.05
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:35, O: 32997.49, H: 32998, L: 32817.92, C: 32859.91, V: 149.33
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:36, O: 32859.91, H: 32911, L: 32769.05, C: 32877.80, V: 105.93
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:37, O: 32878.00, H: 32914, L: 32729.36, C: 32851.67, V: 136.36
+[2021-01-11 23:38:39,785][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:38, O: 32851.67, H: 32891, L: 32665.00, C: 32678.62, V: 100.42
+[2021-01-11 23:38:39,786][INFO][__main__] hist is -87.96
+[2021-01-11 23:38:40,051][INFO][__main__] shorts-->>0
+[2021-01-11 23:38:40,052][INFO][__main__] longs-->>0
+[2021-01-11 23:45:50,489][INFO][__main__] Logger initialized
+[2021-01-11 23:46:05,441][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-11 23:46:05,441][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:46:05,441][DEBUG][ExchgData.ExchgData] tf 1m not in candles keys
+[2021-01-11 23:46:05,441][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 2040
+[2021-01-11 23:46:05,441][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610386925400 to end 1610388965441
+[2021-01-11 23:46:05,441][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:46:05,441][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610386925400, limit 35
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:46
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] Preloading candles for tf 1m, lookback 34
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:42, O: 32602.01, H: 32645, L: 32597.69, C: 32614.63, V: 31.24
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:43, O: 32614.63, H: 32895, L: 32609.22, C: 32874.74, V: 110.30
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:44, O: 32859.77, H: 32971, L: 32765.30, C: 32856.77, V: 171.69
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:45, O: 32856.77, H: 33000, L: 32856.37, C: 32940.05, V: 100.40
+[2021-01-11 23:46:15,570][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32940, L: 32808.88, C: 32844.23, V: 21.86
+[2021-01-11 23:46:15,571][INFO][__main__] hist is 247.17
+[2021-01-11 23:46:15,571][DEBUG][__main__] Main loop
+[2021-01-11 23:46:16,067][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:46:16,067][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:46:16,067][DEBUG][ExchgData.ExchgData] Last TS: 1610388960000
+[2021-01-11 23:46:16,067][DEBUG][ExchgData.ExchgData] Last ts is 1610388960000
+[2021-01-11 23:46:16,067][DEBUG][ExchgData.ExchgData] Lag is 16
+[2021-01-11 23:46:16,068][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:46:16,068][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610388900000 to end 1610388976068
+[2021-01-11 23:46:16,068][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:46:16,068][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610388900000, limit 2
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:46
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] Last TS: 1610388900000
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:45
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 16 less than 60
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] Last TS: 1610388960000
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:46
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:42, O: 32602.01, H: 32645, L: 32597.69, C: 32614.63, V: 31.24
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:43, O: 32614.63, H: 32895, L: 32609.22, C: 32874.74, V: 110.30
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:44, O: 32859.77, H: 32971, L: 32765.30, C: 32856.77, V: 171.69
+[2021-01-11 23:46:25,582][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:45, O: 32856.77, H: 33000, L: 32856.37, C: 32940.05, V: 100.40
+[2021-01-11 23:46:25,583][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32940, L: 32808.88, C: 32835.72, V: 33.83
+[2021-01-11 23:46:25,583][INFO][__main__] hist is 246.09
+[2021-01-11 23:46:25,864][INFO][__main__] shorts-->>0
+[2021-01-11 23:46:25,864][INFO][__main__] longs-->>0
+[2021-01-11 23:46:27,053][INFO][__main__]  Last price is: 32838.5800, VWAP is 34550.1478
+[2021-01-11 23:46:27,054][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:46:27,054][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:46:27,054][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:46:57,065][DEBUG][__main__] Main loop
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] Last TS: 1610388960000
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] Last ts is 1610388960000
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] Lag is 57
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610388900000 to end 1610389017552
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:46:57,552][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610388900000, limit 2
+[2021-01-11 23:46:57,674][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:46
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] Last TS: 1610388900000
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:45
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 57 less than 60
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] Last TS: 1610388960000
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:46
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:42, O: 32602.01, H: 32645, L: 32597.69, C: 32614.63, V: 31.24
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:43, O: 32614.63, H: 32895, L: 32609.22, C: 32874.74, V: 110.30
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:44, O: 32859.77, H: 32971, L: 32765.30, C: 32856.77, V: 171.69
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:45, O: 32856.77, H: 33000, L: 32856.37, C: 32940.05, V: 100.40
+[2021-01-11 23:46:57,675][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32970, L: 32807.19, C: 32824.52, V: 85.16
+[2021-01-11 23:46:57,676][INFO][__main__] hist is 238.35
+[2021-01-11 23:46:58,398][INFO][__main__] shorts-->>0
+[2021-01-11 23:46:58,398][INFO][__main__] longs-->>0
+[2021-01-11 23:46:59,148][INFO][__main__]  Last price is: 32827.4800, VWAP is 34549.4426
+[2021-01-11 23:46:59,148][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:46:59,148][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:46:59,149][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:47:29,160][DEBUG][__main__] Main loop
+[2021-01-11 23:47:29,427][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:47:29,428][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:47:29,428][DEBUG][ExchgData.ExchgData] Last TS: 1610388960000
+[2021-01-11 23:47:29,428][DEBUG][ExchgData.ExchgData] Last ts is 1610388960000
+[2021-01-11 23:47:29,428][DEBUG][ExchgData.ExchgData] Lag is 89
+[2021-01-11 23:47:29,428][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:47:29,428][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610388900000 to end 1610389049428
+[2021-01-11 23:47:29,428][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:47:29,428][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610388900000, limit 3
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:47
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 89 greater than 60
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] it 0, ts 1610388900000
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Last TS: 1610388960000
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:46
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Last TS: 1610388900000
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:45
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Last TS: 1610389020000
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:46, 11 23:47
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] Last TS: 1610389020000
+[2021-01-11 23:47:29,549][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389020000
+[2021-01-11 23:47:29,550][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:43, O: 32614.63, H: 32895, L: 32609.22, C: 32874.74, V: 110.30
+[2021-01-11 23:47:29,550][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:44, O: 32859.77, H: 32971, L: 32765.30, C: 32856.77, V: 171.69
+[2021-01-11 23:47:29,550][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:45, O: 32856.77, H: 33000, L: 32856.37, C: 32940.05, V: 100.40
+[2021-01-11 23:47:29,550][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32970, L: 32807.19, C: 32824.51, V: 86.24
+[2021-01-11 23:47:29,550][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32825, L: 32726.66, C: 32734.87, V: 36.98
+[2021-01-11 23:47:29,550][INFO][__main__] hist is 140.42
+[2021-01-11 23:47:29,818][INFO][__main__] shorts-->>0
+[2021-01-11 23:47:29,819][INFO][__main__] longs-->>0
+[2021-01-11 23:47:30,325][INFO][__main__]  Last price is: 32742.1500, VWAP is 34548.6499
+[2021-01-11 23:47:30,325][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:47:30,325][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:47:30,325][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:48:00,333][DEBUG][__main__] Main loop
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] Last TS: 1610389020000
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] Last ts is 1610389020000
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] Lag is 60
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610388960000 to end 1610389080617
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:48:00,617][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610388960000, limit 3
+[2021-01-11 23:48:00,753][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:48
+[2021-01-11 23:48:00,753][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:48:00,753][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:48:00,753][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 60 greater than 60
+[2021-01-11 23:48:00,753][DEBUG][ExchgData.ExchgData] it 0, ts 1610388960000
+[2021-01-11 23:48:00,753][DEBUG][ExchgData.ExchgData] Last TS: 1610389020000
+[2021-01-11 23:48:00,753][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:47
+[2021-01-11 23:48:00,753][DEBUG][ExchgData.ExchgData] Last TS: 1610388960000
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:46
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] Last TS: 1610389080000
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:47, 11 23:48
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] Last TS: 1610389080000
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389080000
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:44, O: 32859.77, H: 32971, L: 32765.30, C: 32856.77, V: 171.69
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:45, O: 32856.77, H: 33000, L: 32856.37, C: 32940.05, V: 100.40
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32970, L: 32807.19, C: 32824.51, V: 86.24
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32840, L: 32726.66, C: 32752.72, V: 70.55
+[2021-01-11 23:48:00,754][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32759, L: 32752.73, C: 32753.50, V: 1.15
+[2021-01-11 23:48:00,755][INFO][__main__] hist is 90.08
+[2021-01-11 23:48:01,020][INFO][__main__] shorts-->>0
+[2021-01-11 23:48:01,020][INFO][__main__] longs-->>0
+[2021-01-11 23:48:01,991][INFO][__main__]  Last price is: 32737.9400, VWAP is 34547.7970
+[2021-01-11 23:48:01,992][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:48:01,992][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:48:01,992][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:48:32,005][DEBUG][__main__] Main loop
+[2021-01-11 23:48:32,284][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:48:32,284][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:48:32,284][DEBUG][ExchgData.ExchgData] Last TS: 1610389080000
+[2021-01-11 23:48:32,284][DEBUG][ExchgData.ExchgData] Last ts is 1610389080000
+[2021-01-11 23:48:32,284][DEBUG][ExchgData.ExchgData] Lag is 32
+[2021-01-11 23:48:32,284][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:48:32,284][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610389020000 to end 1610389112284
+[2021-01-11 23:48:32,284][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:48:32,285][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389020000, limit 2
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:48
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] Last TS: 1610389020000
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:47
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 32 less than 60
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] Last TS: 1610389080000
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:48
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:44, O: 32859.77, H: 32971, L: 32765.30, C: 32856.77, V: 171.69
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:45, O: 32856.77, H: 33000, L: 32856.37, C: 32940.05, V: 100.40
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32970, L: 32807.19, C: 32824.51, V: 86.24
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32840, L: 32726.66, C: 32752.72, V: 70.55
+[2021-01-11 23:48:32,408][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32800, L: 32656.30, C: 32703.75, V: 44.97
+[2021-01-11 23:48:32,409][INFO][__main__] hist is 47.19
+[2021-01-11 23:48:32,681][INFO][__main__] shorts-->>0
+[2021-01-11 23:48:32,682][INFO][__main__] longs-->>0
+[2021-01-11 23:48:33,422][INFO][__main__]  Last price is: 32703.7100, VWAP is 34546.8074
+[2021-01-11 23:48:33,422][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:48:33,423][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:48:33,423][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:49:03,438][DEBUG][__main__] Main loop
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] Last TS: 1610389080000
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] Last ts is 1610389080000
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] Lag is 63
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610389020000 to end 1610389143711
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:49:03,711][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389020000, limit 3
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:49
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 63 greater than 60
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] it 0, ts 1610389020000
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Last TS: 1610389080000
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:48
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Last TS: 1610389020000
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:47
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Last TS: 1610389140000
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:48, 11 23:49
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] Last TS: 1610389140000
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389140000
+[2021-01-11 23:49:03,843][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:45, O: 32856.77, H: 33000, L: 32856.37, C: 32940.05, V: 100.40
+[2021-01-11 23:49:03,844][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32970, L: 32807.19, C: 32824.51, V: 86.24
+[2021-01-11 23:49:03,844][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32840, L: 32726.66, C: 32752.72, V: 70.55
+[2021-01-11 23:49:03,844][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32875, L: 32656.30, C: 32819.45, V: 77.62
+[2021-01-11 23:49:03,844][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32819.45, C: 32857.90, V: 14.22
+[2021-01-11 23:49:03,844][INFO][__main__] hist is 139.37
+[2021-01-11 23:49:04,120][INFO][__main__] shorts-->>0
+[2021-01-11 23:49:04,121][INFO][__main__] longs-->>0
+[2021-01-11 23:49:05,077][INFO][__main__]  Last price is: 32839.7800, VWAP is 34546.0443
+[2021-01-11 23:49:05,077][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:49:05,077][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:49:05,077][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:49:35,079][DEBUG][__main__] Main loop
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] Last TS: 1610389140000
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] Last ts is 1610389140000
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] Lag is 35
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610389080000 to end 1610389175332
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:49:35,332][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389080000, limit 2
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:49
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] Last TS: 1610389080000
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:48
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 35 less than 60
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] Last TS: 1610389140000
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:49
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:45, O: 32856.77, H: 33000, L: 32856.37, C: 32940.05, V: 100.40
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32970, L: 32807.19, C: 32824.51, V: 86.24
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32840, L: 32726.66, C: 32752.72, V: 70.55
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32875, L: 32656.30, C: 32819.45, V: 77.62
+[2021-01-11 23:49:35,683][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32741.00, C: 32764.68, V: 42.89
+[2021-01-11 23:49:35,684][INFO][__main__] hist is 151.31
+[2021-01-11 23:49:35,973][INFO][__main__] shorts-->>0
+[2021-01-11 23:49:35,973][INFO][__main__] longs-->>0
+[2021-01-11 23:49:36,747][INFO][__main__]  Last price is: 32765.9100, VWAP is 34545.3667
+[2021-01-11 23:49:36,747][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:49:36,748][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:49:36,748][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:50:06,750][DEBUG][__main__] Main loop
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] Last TS: 1610389140000
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] Last ts is 1610389140000
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] Lag is 67
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610389080000 to end 1610389207016
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:50:07,016][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389080000, limit 3
+[2021-01-11 23:50:07,153][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:50
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 67 greater than 60
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] it 0, ts 1610389080000
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Last TS: 1610389140000
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:49
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Last TS: 1610389080000
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:48
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Last TS: 1610389200000
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:49, 11 23:50
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] Last TS: 1610389200000
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389200000
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32970, L: 32807.19, C: 32824.51, V: 86.24
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32840, L: 32726.66, C: 32752.72, V: 70.55
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32875, L: 32656.30, C: 32819.45, V: 77.62
+[2021-01-11 23:50:07,154][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32738.76, C: 32738.76, V: 65.08
+[2021-01-11 23:50:07,155][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32681.75, C: 32681.75, V: 10.79
+[2021-01-11 23:50:07,155][INFO][__main__] hist is 101.39
+[2021-01-11 23:50:07,431][INFO][__main__] shorts-->>0
+[2021-01-11 23:50:07,432][INFO][__main__] longs-->>0
+[2021-01-11 23:50:08,180][INFO][__main__]  Last price is: 32678.8700, VWAP is 34544.5360
+[2021-01-11 23:50:08,181][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:50:08,181][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:50:08,181][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:50:38,182][DEBUG][__main__] Main loop
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] Last TS: 1610389200000
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] Last ts is 1610389200000
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] Lag is 38
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610389140000 to end 1610389238448
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:50:38,448][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389140000, limit 2
+[2021-01-11 23:50:38,586][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:50
+[2021-01-11 23:50:38,586][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:50:38,586][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:50:38,586][DEBUG][ExchgData.ExchgData] Last TS: 1610389140000
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:49
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 38 less than 60
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] Last TS: 1610389200000
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:50
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:46, O: 32940.05, H: 32970, L: 32807.19, C: 32824.51, V: 86.24
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32840, L: 32726.66, C: 32752.72, V: 70.55
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32875, L: 32656.30, C: 32819.45, V: 77.62
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32738.76, C: 32738.76, V: 65.08
+[2021-01-11 23:50:38,587][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32600.00, C: 32683.42, V: 60.49
+[2021-01-11 23:50:38,587][INFO][__main__] hist is 106.52
+[2021-01-11 23:50:39,088][INFO][__main__] shorts-->>0
+[2021-01-11 23:50:39,088][INFO][__main__] longs-->>0
+[2021-01-11 23:50:40,138][INFO][__main__]  Last price is: 32671.8700, VWAP is 34543.7527
+[2021-01-11 23:50:40,138][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:50:40,138][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:50:40,138][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:51:10,149][DEBUG][__main__] Main loop
+[2021-01-11 23:51:10,425][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:51:10,425][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:51:10,425][DEBUG][ExchgData.ExchgData] Last TS: 1610389200000
+[2021-01-11 23:51:10,425][DEBUG][ExchgData.ExchgData] Last ts is 1610389200000
+[2021-01-11 23:51:10,425][DEBUG][ExchgData.ExchgData] Lag is 70
+[2021-01-11 23:51:10,426][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:51:10,426][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610389140000 to end 1610389270426
+[2021-01-11 23:51:10,426][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:51:10,426][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389140000, limit 3
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:51
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 70 greater than 60
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] it 0, ts 1610389140000
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Last TS: 1610389200000
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:50
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Last TS: 1610389140000
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:49
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Last TS: 1610389260000
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:50, 11 23:51
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] Last TS: 1610389260000
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389260000
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32840, L: 32726.66, C: 32752.72, V: 70.55
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32875, L: 32656.30, C: 32819.45, V: 77.62
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32738.76, C: 32738.76, V: 65.08
+[2021-01-11 23:51:10,563][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32600.00, C: 32620.84, V: 87.57
+[2021-01-11 23:51:10,564][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:51, O: 32620.84, H: 32678, L: 32613.13, C: 32677.63, V: 12.84
+[2021-01-11 23:51:10,564][INFO][__main__] hist is 47.59
+[2021-01-11 23:51:10,845][INFO][__main__] shorts-->>0
+[2021-01-11 23:51:10,845][INFO][__main__] longs-->>0
+[2021-01-11 23:51:11,579][INFO][__main__]  Last price is: 32677.2400, VWAP is 34542.7374
+[2021-01-11 23:51:11,579][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:51:11,579][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:51:11,579][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:51:41,592][DEBUG][__main__] Main loop
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] Last TS: 1610389260000
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] Last ts is 1610389260000
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] Lag is 41
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610389200000 to end 1610389301848
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:51:41,848][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389200000, limit 2
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:51
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] Last TS: 1610389200000
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:50
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 41 less than 60
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] Last TS: 1610389260000
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:51
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:47, O: 32824.52, H: 32840, L: 32726.66, C: 32752.72, V: 70.55
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32875, L: 32656.30, C: 32819.45, V: 77.62
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32738.76, C: 32738.76, V: 65.08
+[2021-01-11 23:51:41,972][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32600.00, C: 32620.84, V: 87.57
+[2021-01-11 23:51:41,973][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:51, O: 32620.84, H: 32833, L: 32613.13, C: 32830.02, V: 72.75
+[2021-01-11 23:51:41,973][INFO][__main__] hist is 64.84
+[2021-01-11 23:51:42,246][INFO][__main__] shorts-->>0
+[2021-01-11 23:51:42,246][INFO][__main__] longs-->>0
+[2021-01-11 23:51:42,986][INFO][__main__]  Last price is: 32840.3300, VWAP is 34541.7229
+[2021-01-11 23:51:42,986][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:51:42,986][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:51:42,986][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:52:12,993][DEBUG][__main__] Main loop
+[2021-01-11 23:52:13,250][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:52:13,251][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:52:13,251][DEBUG][ExchgData.ExchgData] Last TS: 1610389260000
+[2021-01-11 23:52:13,251][DEBUG][ExchgData.ExchgData] Last ts is 1610389260000
+[2021-01-11 23:52:13,251][DEBUG][ExchgData.ExchgData] Lag is 73
+[2021-01-11 23:52:13,251][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:52:13,251][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610389200000 to end 1610389333251
+[2021-01-11 23:52:13,251][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:52:13,251][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389200000, limit 3
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:52
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 73 greater than 60
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] it 0, ts 1610389200000
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Last TS: 1610389260000
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:51
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Last TS: 1610389200000
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:50
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Last TS: 1610389320000
+[2021-01-11 23:52:13,374][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:51, 11 23:52
+[2021-01-11 23:52:13,375][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:52:13,375][DEBUG][ExchgData.ExchgData] Last TS: 1610389320000
+[2021-01-11 23:52:13,375][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389320000
+[2021-01-11 23:52:13,375][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32875, L: 32656.30, C: 32819.45, V: 77.62
+[2021-01-11 23:52:13,375][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32738.76, C: 32738.76, V: 65.08
+[2021-01-11 23:52:13,375][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32600.00, C: 32620.84, V: 87.57
+[2021-01-11 23:52:13,375][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:51, O: 32620.84, H: 32850, L: 32613.13, C: 32766.78, V: 99.09
+[2021-01-11 23:52:13,375][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:52, O: 32768.00, H: 32820, L: 32701.43, C: 32796.64, V: 15.53
+[2021-01-11 23:52:13,375][INFO][__main__] hist is 52.32
+[2021-01-11 23:52:13,643][INFO][__main__] shorts-->>0
+[2021-01-11 23:52:13,643][INFO][__main__] longs-->>0
+[2021-01-11 23:52:14,650][INFO][__main__]  Last price is: 32800.0000, VWAP is 34540.9969
+[2021-01-11 23:52:14,651][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:52:14,651][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:52:14,651][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:52:44,658][DEBUG][__main__] Main loop
+[2021-01-11 23:52:44,933][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:52:44,934][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:52:44,934][DEBUG][ExchgData.ExchgData] Last TS: 1610389320000
+[2021-01-11 23:52:44,934][DEBUG][ExchgData.ExchgData] Last ts is 1610389320000
+[2021-01-11 23:52:44,934][DEBUG][ExchgData.ExchgData] Lag is 44
+[2021-01-11 23:52:44,934][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:52:44,934][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610389260000 to end 1610389364934
+[2021-01-11 23:52:44,934][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:52:44,934][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389260000, limit 2
+[2021-01-11 23:52:45,058][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:52
+[2021-01-11 23:52:45,058][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:52:45,058][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:52:45,058][DEBUG][ExchgData.ExchgData] Last TS: 1610389260000
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:51
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 44 less than 60
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] Last TS: 1610389320000
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:52
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:48, O: 32755.14, H: 32875, L: 32656.30, C: 32819.45, V: 77.62
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32738.76, C: 32738.76, V: 65.08
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32600.00, C: 32620.84, V: 87.57
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:51, O: 32620.84, H: 32850, L: 32613.13, C: 32766.78, V: 99.09
+[2021-01-11 23:52:45,059][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:52, O: 32768.00, H: 32867, L: 32701.43, C: 32832.92, V: 39.94
+[2021-01-11 23:52:45,059][INFO][__main__] hist is 64.12
+[2021-01-11 23:52:45,328][INFO][__main__] shorts-->>0
+[2021-01-11 23:52:45,328][INFO][__main__] longs-->>0
+[2021-01-11 23:52:45,834][INFO][__main__]  Last price is: 32838.7600, VWAP is 34540.0646
+[2021-01-11 23:52:45,834][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:52:45,834][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:52:45,835][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:53:15,848][DEBUG][__main__] Main loop
+[2021-01-11 23:53:16,108][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:53:16,109][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:53:16,109][DEBUG][ExchgData.ExchgData] Last TS: 1610389320000
+[2021-01-11 23:53:16,109][DEBUG][ExchgData.ExchgData] Last ts is 1610389320000
+[2021-01-11 23:53:16,109][DEBUG][ExchgData.ExchgData] Lag is 76
+[2021-01-11 23:53:16,109][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:53:16,109][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610389260000 to end 1610389396109
+[2021-01-11 23:53:16,109][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:53:16,109][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389260000, limit 3
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:53
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 76 greater than 60
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] it 0, ts 1610389260000
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Last TS: 1610389320000
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:52
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Last TS: 1610389260000
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:51
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Last TS: 1610389380000
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:52, 11 23:53
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] Last TS: 1610389380000
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389380000
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32738.76, C: 32738.76, V: 65.08
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32600.00, C: 32620.84, V: 87.57
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:51, O: 32620.84, H: 32850, L: 32613.13, C: 32766.78, V: 99.09
+[2021-01-11 23:53:16,232][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:52, O: 32768.00, H: 32870, L: 32701.43, C: 32823.32, V: 66.59
+[2021-01-11 23:53:16,233][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:53, O: 32823.35, H: 32834, L: 32752.90, C: 32752.90, V: 10.61
+[2021-01-11 23:53:16,233][INFO][__main__] hist is 86.35
+[2021-01-11 23:53:16,500][INFO][__main__] shorts-->>0
+[2021-01-11 23:53:16,500][INFO][__main__] longs-->>0
+[2021-01-11 23:53:17,728][INFO][__main__]  Last price is: 32750.0000, VWAP is 34539.2665
+[2021-01-11 23:53:17,728][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:53:17,728][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:53:17,728][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:53:47,733][DEBUG][__main__] Main loop
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] Last TS: 1610389380000
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] Last ts is 1610389380000
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] Lag is 48
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610389320000 to end 1610389428009
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:53:48,009][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389320000, limit 2
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:53
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] Last TS: 1610389320000
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:52
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 48 less than 60
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] Last TS: 1610389380000
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] Update candles last ts now 11 23:53
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:49, O: 32819.45, H: 32880, L: 32738.76, C: 32738.76, V: 65.08
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32600.00, C: 32620.84, V: 87.57
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:51, O: 32620.84, H: 32850, L: 32613.13, C: 32766.78, V: 99.09
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:52, O: 32768.00, H: 32870, L: 32701.43, C: 32823.32, V: 66.59
+[2021-01-11 23:53:48,368][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:53, O: 32823.35, H: 32834, L: 32736.65, C: 32781.13, V: 46.78
+[2021-01-11 23:53:48,369][INFO][__main__] hist is 70.28
+[2021-01-11 23:53:48,641][INFO][__main__] shorts-->>0
+[2021-01-11 23:53:48,641][INFO][__main__] longs-->>0
+[2021-01-11 23:53:49,403][INFO][__main__]  Last price is: 32778.3400, VWAP is 34537.3199
+[2021-01-11 23:53:49,403][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:53:49,403][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:53:49,403][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:54:19,409][DEBUG][__main__] Main loop
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] Last TS: 1610389380000
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] Last ts is 1610389380000
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] Lag is 79
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610389320000 to end 1610389459675
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:54:19,675][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389320000, limit 3
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:54
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 79 greater than 60
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] it 0, ts 1610389320000
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Last TS: 1610389380000
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:53
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Last TS: 1610389320000
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:52
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Last TS: 1610389440000
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:53, 11 23:54
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:54:19,810][DEBUG][ExchgData.ExchgData] Last TS: 1610389440000
+[2021-01-11 23:54:19,811][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389440000
+[2021-01-11 23:54:19,811][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:50, O: 32738.77, H: 32743, L: 32600.00, C: 32620.84, V: 87.57
+[2021-01-11 23:54:19,811][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:51, O: 32620.84, H: 32850, L: 32613.13, C: 32766.78, V: 99.09
+[2021-01-11 23:54:19,811][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:52, O: 32768.00, H: 32870, L: 32701.43, C: 32823.32, V: 66.59
+[2021-01-11 23:54:19,811][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:53, O: 32823.35, H: 32834, L: 32736.65, C: 32787.01, V: 87.93
+[2021-01-11 23:54:19,811][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:54, O: 32763.28, H: 32795, L: 32749.97, C: 32795.20, V: 46.20
+[2021-01-11 23:54:19,811][INFO][__main__] hist is -40.63
+[2021-01-11 23:54:20,075][INFO][__main__] shorts-->>0
+[2021-01-11 23:54:20,075][INFO][__main__] longs-->>0
+[2021-01-11 23:54:35,673][INFO][__main__]  Last price is: 32800.0000, VWAP is 34535.6310
+[2021-01-11 23:54:35,673][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:54:35,673][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:54:35,673][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:55:05,675][DEBUG][__main__] Main loop
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] Update candles for 1m, lookback 34
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] updating candles for 1m, lookback 34
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] Last TS: 1610389440000
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] Last ts is 1610389440000
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] Lag is 65
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] current length for tf 1m is 34
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] Limit 3 candles from start 1610389380000 to end 1610389505927
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-11 23:55:05,927][DEBUG][ExchgData.ExchgData] Fetching 1m candles with start ts 1610389380000, limit 3
+[2021-01-11 23:55:06,051][DEBUG][ExchgData.ExchgData] Last candle ts: 11 23:55
+[2021-01-11 23:55:06,051][DEBUG][ExchgData.ExchgData] Fetched 3 candles
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Candles length is 3
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Fetching fresh data for lag 65 greater than 60
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] it 0, ts 1610389380000
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Last TS: 1610389440000
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:54
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Last TS: 1610389380000
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Old candles last ts now 11 23:53
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Last TS: 1610389500000
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Old candles last tses now 11 23:54, 11 23:55
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Resizing candles to 34
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] Last TS: 1610389500000
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] New last timestamp is 1610389500000
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:51, O: 32620.84, H: 32850, L: 32613.13, C: 32766.78, V: 99.09
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:52, O: 32768.00, H: 32870, L: 32701.43, C: 32823.32, V: 66.59
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:53, O: 32823.35, H: 32834, L: 32736.65, C: 32787.01, V: 87.93
+[2021-01-11 23:55:06,052][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:54, O: 32763.28, H: 32950, L: 32749.97, C: 32940.88, V: 239.51
+[2021-01-11 23:55:06,053][DEBUG][ExchgData.ExchgData] CANDLES(1m), T: 11 23:55, O: 32940.88, H: 32950, L: 32930.43, C: 32950.00, V: 24.11
+[2021-01-11 23:55:06,053][INFO][__main__] hist is 201.27
+[2021-01-11 23:55:06,319][INFO][__main__] shorts-->>0
+[2021-01-11 23:55:06,319][INFO][__main__] longs-->>0
+[2021-01-11 23:55:22,288][DEBUG][__main__] action: GOING LONG	ordersize: 1	stacked: 1	price: 32946.59
+[2021-01-11 23:55:26,179][INFO][__main__]  Last price is: 32946.5900, VWAP is 34532.5449
+[2021-01-11 23:55:26,179][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:55:26,179][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:55:26,179][INFO][__main__] Loop completed, sleeping for 30 seconds

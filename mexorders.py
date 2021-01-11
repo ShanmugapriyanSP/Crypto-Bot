@@ -443,10 +443,10 @@ def smart_order(side, qty, symbol=ordersym, close=False):
 
     result = None
     apitry = 0
-    while (not result and apitry < apitrylimit * 10):
+    while not result and apitry < apitrylimit * 10:
         try:
             # result = requests.post(binance.urls['api'], json = [ limitOrder, stopOrder ])
-            result = binance.create_order(symbol, 'MARKET', side, qty)
+            result = binance.create_order(symbol, 'MARKET', side, None, params={'quoteOrderQty': qty})
             log.debug(result)
         except Exception as err:
             result = None
@@ -458,7 +458,7 @@ def smart_order(side, qty, symbol=ordersym, close=False):
     return result
 
 
-def get_balance_total():
+def get_balance():
     balanceinfo = None
     apitry = 0
     while not balanceinfo and apitry < apitrylimit:
@@ -470,30 +470,9 @@ def get_balance_total():
             log.warning(err)
             time.sleep(apisleep)
             apitry = apitry + 1
-    log.info(f"Balance Info: {balanceinfo}")
+    # log.info(f"Balance Info: {balanceinfo}")
     if apitry == apitrylimit:
         send_email("Failed to get balance, API tries exhausted!")
         return 0
-    elif balanceinfo is not None and 'BTC' in balanceinfo['total'].keys():
-        return balanceinfo['total']['BTC']
     else:
-        return 0.0
-
-
-def get_balance_free():
-    balanceinfo = None
-    apitry = 0
-    while not balanceinfo and apitry < apitrylimit:
-        try:
-            balanceinfo = binance.fetch_balance()
-        except Exception as err:
-            balanceinfo = None
-            log.warning("Failed to get balance, trying again")
-            log.warning(err)
-            time.sleep(apisleep)
-            apitry = apitry + 1
-
-    if balanceinfo is not None and 'BTC' in balanceinfo['free'].keys():
-        return balanceinfo['free']['BTC']
-    else:
-        return 0.0
+        return balanceinfo

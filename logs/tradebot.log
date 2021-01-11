@@ -23,3 +23,200 @@
 [2021-01-10 00:28:05,478][INFO][__main__]  Last price is: 40658.3500, VWAP is 40166.7444
 [2021-01-10 00:28:05,478][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
 [2021-01-10 00:28:05,478][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 13:50:54,836][INFO][__main__] Logger initialized
+[2021-01-11 13:51:04,996][INFO][__main__] hist is -251.03
+[2021-01-11 13:51:15,007][INFO][__main__] hist is -292.37
+[2021-01-11 13:51:15,273][INFO][__main__] shorts-->>0
+[2021-01-11 13:51:15,274][INFO][__main__] longs-->>0
+[2021-01-11 13:51:15,910][INFO][__main__]  Last price is: 35248.5000, VWAP is 36901.5245
+[2021-01-11 13:51:15,910][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 13:51:15,911][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 13:51:46,309][INFO][__main__] hist is -347.54
+[2021-01-11 13:51:46,798][INFO][__main__] shorts-->>0
+[2021-01-11 13:51:46,798][INFO][__main__] longs-->>0
+[2021-01-11 13:51:47,448][INFO][__main__]  Last price is: 35196.4900, VWAP is 36900.7721
+[2021-01-11 13:51:47,448][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 13:51:47,448][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 13:52:17,842][INFO][__main__] hist is -283.73
+[2021-01-11 13:52:18,122][INFO][__main__] shorts-->>0
+[2021-01-11 13:52:18,122][INFO][__main__] longs-->>0
+[2021-01-11 13:52:19,249][INFO][__main__]  Last price is: 35243.7200, VWAP is 36899.6341
+[2021-01-11 13:52:19,249][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 13:52:19,249][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 13:52:49,666][INFO][__main__] hist is -289.72
+[2021-01-11 13:52:49,926][INFO][__main__] shorts-->>0
+[2021-01-11 13:52:49,926][INFO][__main__] longs-->>0
+[2021-01-11 13:52:51,035][INFO][__main__]  Last price is: 35332.1300, VWAP is 36898.8857
+[2021-01-11 13:52:51,035][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 13:52:51,035][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 21:50:42,208][INFO][__main__] Logger initialized
+[2021-01-11 21:50:52,410][INFO][__main__] hist is 226.51
+[2021-01-11 21:51:02,360][INFO][__main__] hist is 269.00
+[2021-01-11 21:51:02,855][INFO][__main__] shorts-->>0
+[2021-01-11 21:51:02,856][INFO][__main__] longs-->>0
+[2021-01-11 21:51:03,530][INFO][__main__]  Last price is: 30919.1200, VWAP is 35160.1595
+[2021-01-11 21:51:03,531][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 21:51:03,531][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 21:51:33,963][INFO][__main__] hist is 476.05
+[2021-01-11 21:51:34,298][INFO][__main__] shorts-->>0
+[2021-01-11 21:51:34,298][INFO][__main__] longs-->>0
+[2021-01-11 21:51:35,076][INFO][__main__]  Last price is: 31208.4300, VWAP is 35154.6030
+[2021-01-11 21:51:35,076][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 21:51:35,076][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 22:19:32,038][INFO][__main__] Logger initialized
+[2021-01-11 22:19:32,995][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 22:19:50,151][INFO][__main__] Logger initialized
+[2021-01-11 22:19:51,462][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 22:20:18,494][INFO][__main__] Logger initialized
+[2021-01-11 22:20:19,578][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 22:20:33,725][INFO][__main__] Logger initialized
+[2021-01-11 22:20:34,738][INFO][__main__] Total Balance: 0.0000, Free Balance: 0.0000
+[2021-01-11 22:20:48,371][INFO][__main__] Logger initialized
+[2021-01-11 22:20:49,228][INFO][__main__] Total Balance: 0.0000007900, Free Balance: 0.0000007900
+[2021-01-11 22:27:18,376][INFO][__main__] Logger initialized
+[2021-01-11 22:28:03,370][INFO][__main__] Logger initialized
+[2021-01-11 22:28:04,145][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-11 22:28:04,145][INFO][__main__] Total Balance USDT: 0.0000000000, Free Balance USDT: 0.0000000000
+[2021-01-11 22:28:30,835][INFO][__main__] Logger initialized
+[2021-01-11 22:28:31,569][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 22:28:31,569][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 22:41:16,926][INFO][__main__] Logger initialized
+[2021-01-11 22:41:40,411][INFO][__main__] hist is 413.11
+[2021-01-11 22:41:50,426][INFO][__main__] hist is 408.99
+[2021-01-11 22:41:50,697][INFO][__main__] shorts-->>0
+[2021-01-11 22:41:50,698][INFO][__main__] longs-->>0
+[2021-01-11 22:41:51,964][INFO][__main__]  Last price is: 31160.6900, VWAP is 34864.0093
+[2021-01-11 22:41:51,964][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 22:41:51,964][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 22:41:51,964][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:16:21,592][INFO][__main__] Logger initialized
+[2021-01-11 23:16:46,338][INFO][__main__] hist is -99.75
+[2021-01-11 23:16:56,350][INFO][__main__] hist is -142.94
+[2021-01-11 23:16:56,627][INFO][__main__] shorts-->>0
+[2021-01-11 23:16:56,628][INFO][__main__] longs-->>0
+[2021-01-11 23:38:04,714][INFO][__main__] Logger initialized
+[2021-01-11 23:38:29,764][INFO][__main__] hist is -47.47
+[2021-01-11 23:38:39,786][INFO][__main__] hist is -87.96
+[2021-01-11 23:38:40,051][INFO][__main__] shorts-->>0
+[2021-01-11 23:38:40,052][INFO][__main__] longs-->>0
+[2021-01-11 23:45:50,489][INFO][__main__] Logger initialized
+[2021-01-11 23:46:15,571][INFO][__main__] hist is 247.17
+[2021-01-11 23:46:25,583][INFO][__main__] hist is 246.09
+[2021-01-11 23:46:25,864][INFO][__main__] shorts-->>0
+[2021-01-11 23:46:25,864][INFO][__main__] longs-->>0
+[2021-01-11 23:46:27,053][INFO][__main__]  Last price is: 32838.5800, VWAP is 34550.1478
+[2021-01-11 23:46:27,054][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:46:27,054][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:46:27,054][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:46:57,676][INFO][__main__] hist is 238.35
+[2021-01-11 23:46:58,398][INFO][__main__] shorts-->>0
+[2021-01-11 23:46:58,398][INFO][__main__] longs-->>0
+[2021-01-11 23:46:59,148][INFO][__main__]  Last price is: 32827.4800, VWAP is 34549.4426
+[2021-01-11 23:46:59,148][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:46:59,148][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:46:59,149][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:47:29,550][INFO][__main__] hist is 140.42
+[2021-01-11 23:47:29,818][INFO][__main__] shorts-->>0
+[2021-01-11 23:47:29,819][INFO][__main__] longs-->>0
+[2021-01-11 23:47:30,325][INFO][__main__]  Last price is: 32742.1500, VWAP is 34548.6499
+[2021-01-11 23:47:30,325][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:47:30,325][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:47:30,325][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:48:00,755][INFO][__main__] hist is 90.08
+[2021-01-11 23:48:01,020][INFO][__main__] shorts-->>0
+[2021-01-11 23:48:01,020][INFO][__main__] longs-->>0
+[2021-01-11 23:48:01,991][INFO][__main__]  Last price is: 32737.9400, VWAP is 34547.7970
+[2021-01-11 23:48:01,992][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:48:01,992][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:48:01,992][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:48:32,409][INFO][__main__] hist is 47.19
+[2021-01-11 23:48:32,681][INFO][__main__] shorts-->>0
+[2021-01-11 23:48:32,682][INFO][__main__] longs-->>0
+[2021-01-11 23:48:33,422][INFO][__main__]  Last price is: 32703.7100, VWAP is 34546.8074
+[2021-01-11 23:48:33,422][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:48:33,423][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:48:33,423][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:49:03,844][INFO][__main__] hist is 139.37
+[2021-01-11 23:49:04,120][INFO][__main__] shorts-->>0
+[2021-01-11 23:49:04,121][INFO][__main__] longs-->>0
+[2021-01-11 23:49:05,077][INFO][__main__]  Last price is: 32839.7800, VWAP is 34546.0443
+[2021-01-11 23:49:05,077][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:49:05,077][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:49:05,077][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:49:35,684][INFO][__main__] hist is 151.31
+[2021-01-11 23:49:35,973][INFO][__main__] shorts-->>0
+[2021-01-11 23:49:35,973][INFO][__main__] longs-->>0
+[2021-01-11 23:49:36,747][INFO][__main__]  Last price is: 32765.9100, VWAP is 34545.3667
+[2021-01-11 23:49:36,747][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:49:36,748][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:49:36,748][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:50:07,155][INFO][__main__] hist is 101.39
+[2021-01-11 23:50:07,431][INFO][__main__] shorts-->>0
+[2021-01-11 23:50:07,432][INFO][__main__] longs-->>0
+[2021-01-11 23:50:08,180][INFO][__main__]  Last price is: 32678.8700, VWAP is 34544.5360
+[2021-01-11 23:50:08,181][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:50:08,181][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:50:08,181][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:50:38,587][INFO][__main__] hist is 106.52
+[2021-01-11 23:50:39,088][INFO][__main__] shorts-->>0
+[2021-01-11 23:50:39,088][INFO][__main__] longs-->>0
+[2021-01-11 23:50:40,138][INFO][__main__]  Last price is: 32671.8700, VWAP is 34543.7527
+[2021-01-11 23:50:40,138][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:50:40,138][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:50:40,138][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:51:10,564][INFO][__main__] hist is 47.59
+[2021-01-11 23:51:10,845][INFO][__main__] shorts-->>0
+[2021-01-11 23:51:10,845][INFO][__main__] longs-->>0
+[2021-01-11 23:51:11,579][INFO][__main__]  Last price is: 32677.2400, VWAP is 34542.7374
+[2021-01-11 23:51:11,579][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:51:11,579][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:51:11,579][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:51:41,973][INFO][__main__] hist is 64.84
+[2021-01-11 23:51:42,246][INFO][__main__] shorts-->>0
+[2021-01-11 23:51:42,246][INFO][__main__] longs-->>0
+[2021-01-11 23:51:42,986][INFO][__main__]  Last price is: 32840.3300, VWAP is 34541.7229
+[2021-01-11 23:51:42,986][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:51:42,986][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:51:42,986][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:52:13,375][INFO][__main__] hist is 52.32
+[2021-01-11 23:52:13,643][INFO][__main__] shorts-->>0
+[2021-01-11 23:52:13,643][INFO][__main__] longs-->>0
+[2021-01-11 23:52:14,650][INFO][__main__]  Last price is: 32800.0000, VWAP is 34540.9969
+[2021-01-11 23:52:14,651][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:52:14,651][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:52:14,651][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:52:45,059][INFO][__main__] hist is 64.12
+[2021-01-11 23:52:45,328][INFO][__main__] shorts-->>0
+[2021-01-11 23:52:45,328][INFO][__main__] longs-->>0
+[2021-01-11 23:52:45,834][INFO][__main__]  Last price is: 32838.7600, VWAP is 34540.0646
+[2021-01-11 23:52:45,834][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:52:45,834][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:52:45,835][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:53:16,233][INFO][__main__] hist is 86.35
+[2021-01-11 23:53:16,500][INFO][__main__] shorts-->>0
+[2021-01-11 23:53:16,500][INFO][__main__] longs-->>0
+[2021-01-11 23:53:17,728][INFO][__main__]  Last price is: 32750.0000, VWAP is 34539.2665
+[2021-01-11 23:53:17,728][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:53:17,728][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:53:17,728][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:53:48,369][INFO][__main__] hist is 70.28
+[2021-01-11 23:53:48,641][INFO][__main__] shorts-->>0
+[2021-01-11 23:53:48,641][INFO][__main__] longs-->>0
+[2021-01-11 23:53:49,403][INFO][__main__]  Last price is: 32778.3400, VWAP is 34537.3199
+[2021-01-11 23:53:49,403][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:53:49,403][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:53:49,403][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:54:19,811][INFO][__main__] hist is -40.63
+[2021-01-11 23:54:20,075][INFO][__main__] shorts-->>0
+[2021-01-11 23:54:20,075][INFO][__main__] longs-->>0
+[2021-01-11 23:54:35,673][INFO][__main__]  Last price is: 32800.0000, VWAP is 34535.6310
+[2021-01-11 23:54:35,673][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:54:35,673][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:54:35,673][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-11 23:55:06,053][INFO][__main__] hist is 201.27
+[2021-01-11 23:55:06,319][INFO][__main__] shorts-->>0
+[2021-01-11 23:55:06,319][INFO][__main__] longs-->>0
+[2021-01-11 23:55:26,179][INFO][__main__]  Last price is: 32946.5900, VWAP is 34532.5449
+[2021-01-11 23:55:26,179][INFO][__main__] Total Balance BTC: 0.0000007900, Free Balance BTC: 0.0000007900
+[2021-01-11 23:55:26,179][INFO][__main__] Total Balance USDT: 8.3676311400, Free Balance USDT: 8.3676311400
+[2021-01-11 23:55:26,179][INFO][__main__] Loop completed, sleeping for 30 seconds

@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-import requests
 import config
 # from __future__ import print_function, division, unicode_literals
 #
@@ -30,19 +29,18 @@ import config
 
 
 import smtplib
-
-# =============================================================================
-# SET EMAIL LOGIN REQUIREMENTS
-# =============================================================================
-gmail_user = 'spshanmugapriyan641@gmail.com'
-gmail_app_password = ''
+from email.message import EmailMessage
 
 # =============================================================================
 # SET THE INFO ABOUT THE SAID EMAIL
 # =============================================================================
-sent_from = gmail_user
 sent_to = ['spshanmugapriyan641@gmail.com']
-sent_subject = "BTC bot"
+
+msg = EmailMessage()
+
+msg['Subject'] = 'BTC bot'
+msg['From'] = config.mail_user
+msg['To'] = "spshanmugapriyan641@gmail.com"
 
 
 # =============================================================================
@@ -51,12 +49,14 @@ sent_subject = "BTC bot"
 # =============================================================================
 def send_email(message):
     try:
+        msg.set_content(message)
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-        server.ehlo()
-        server.login(gmail_user, gmail_app_password)
-        server.sendmail(sent_from, sent_to, message)
-        server.close()
-
+        server.login(config.mail_user, config.mail_password)
+        server.send_message(msg)
+        server.quit()
         print('Email sent!')
     except Exception as exception:
         print("Error: %s!\n\n" % exception)
+
+
+#send_email("TESTING FAST2SMS")
