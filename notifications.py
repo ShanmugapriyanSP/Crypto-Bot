@@ -40,7 +40,7 @@ msg = EmailMessage()
 
 msg['Subject'] = 'BTC bot'
 msg['From'] = config.mail_user
-msg['To'] = "spshanmugapriyan641@gmail.com"
+msg['To'] = ["spshanmugapriyan641@gmail.com", 'sarveshvh95@gmail.com']
 
 
 # =============================================================================

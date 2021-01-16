@@ -1,4 +1,3 @@
-
 from __future__ import print_function
 
 import logging
@@ -8,7 +7,7 @@ import config
 
 import ExchgData
 # logging.basicConfig(level=logging.INFO)
-import mexorders
+import orders
 from indicators import *
 from notifications import send_email
 from utilities import *
@@ -69,48 +68,47 @@ def hist_positive(exchgdata, tf):
 
 sleeptime = 30
 send_email('\nBot Active!')
-hist_tf = '1m'
+hist_tf = '15m'
 
 binance_data = ExchgData.ExchgData('binance')
 
 last_hist_positive = hist_positive(binance_data, hist_tf)
 curr_hist_positive = last_hist_positive
 
-
 while [1]:
     log.debug("Main loop")
-    mexorders.update_bracket_pct(config.sl, config.tp)
+    orders.update_bracket_pct(config.sl, config.tp)
 
     curr_hist_positive = hist_positive(binance_data, hist_tf)
 
-    shorts = mexorders.get_position_size('short')
-    longs = mexorders.get_position_size('long')
+    shorts = orders.get_position_size('short')
+    longs = orders.get_position_size('long')
     log.info(f'shorts-->>{shorts}')
     log.info(f'longs-->>{longs}')
-    last, vwap = mexorders.get_last_and_vwap();
+    last, vwap = orders.get_last_and_vwap();
     # buybelow   =  10000
     buybelow = vwap
     # sellabove  =  1000
     sellabove = vwap
-    # mexorders.smart_order('Buy', shorts + config.ordersize)
     # if 1d kvo has flipped, flip positions
     if curr_hist_positive and not last_hist_positive:
         print('Inside if')
         if last < buybelow:
             if shorts > longs:
-                entryprice = mexorders.get_positions()[0]['avgCostPrice']
-                breakEvenPrice = mexorders.get_positions()[0]['breakEvenPrice']
+                entryprice = orders.get_positions()[0]['avgCostPrice']
+                breakEvenPrice = orders.get_positions()[0]['breakEvenPrice']
                 if breakEvenPrice - last > 15:
-                    mexorders.cancel_open_orders()
+                    orders.cancel_open_orders()
                     time.sleep(1)
-                    mexorders.smart_order('Buy', shorts+config.ordersize)
+                    orders.smart_order('Buy', shorts + config.ordersize)
                     send_email("%s %s %s %s %s" % ( \
                         ("\nBuy signal!! KVO flipped positive and price is: " + str(last)), \
                         (". VWAP is: " + str(vwap)), \
                         (".\nCurrently net short with Average entry: " + str(entryprice)), \
                         (" and Breakeven at " + str(breakEvenPrice)), \
                         ".\nClosing short in profit and Going Long"))
-                    report_trade("Closing short and Going Long", shorts+config.ordersize, longs+config.ordersize, last)
+                    report_trade("Closing short and Going Long", shorts + config.ordersize, longs + config.ordersize,
+                                 last)
                 else:
                     send_email("%s %s %s %s %s" % ( \
                         ("\nBuy signal!! KVO flipped positive and price is: " + str(last)), \
@@ -119,82 +117,83 @@ while [1]:
                         (" and Breakeven at " + str(breakEvenPrice)), \
                         ".\nSo not going long yet."))
             else:
-                mexorders.cancel_open_orders()
+                orders.cancel_open_orders()
                 time.sleep(1)
-                # mexorders.smart_order('Buy', shorts+config.ordersize)
+                orders.smart_order('Buy', shorts + config.ordersize)
                 if longs == 0:
                     send_email("%s %s %s" % ( \
                         ("\nBuy signal!! KVO flipped positive and price is: " + str(last)), \
                         (". VWAP is: " + str(vwap)), \
                         ".\nGoing Long"))
-                    report_trade("GOING LONG", shorts+config.ordersize, longs+config.ordersize, last)
+                    report_trade("GOING LONG", shorts + config.ordersize, longs + config.ordersize, last)
                 else:
                     send_email("%s %s %s" % ( \
                         ("\nBuy signal!! KVO flipped positive and price is: " + str(last)), \
                         (". VWAP is: " + str(vwap)), \
                         ".\nAdding to Long"))
-                    report_trade("Adding to LONG", shorts+config.ordersize, longs+config.ordersize, last)
+                    report_trade("Adding to LONG", shorts + config.ordersize, longs + config.ordersize, last)
 
         else:
             send_email("%s %s %s" % ( \
                 ("\nKVO flipped positive and price is: " + str(last)), \
                 (". But VWAP is: " + str(vwap)), \
-                (".\nSo not going Long")))
+                ".\nSo not going Long"))
 
     elif not curr_hist_positive and last_hist_positive:
         print('Inside else')
         if last > sellabove:
             if longs > shorts:
-                entryprice = mexorders.get_positions()[0]['avgCostPrice']
-                breakEvenPrice = mexorders.get_positions()[0]['breakEvenPrice']
+                entryprice = orders.get_positions()[0]['avgCostPrice']
+                breakEvenPrice = orders.get_positions()[0]['breakEvenPrice']
                 if last - breakEvenPrice > 15:
-                    mexorders.cancel_open_orders()
+                    orders.cancel_open_orders()
                     time.sleep(1)
-                    # mexorders.smart_order('Sell', longs+config.ordersize)
+                    orders.smart_order('Sell', longs + config.ordersize)
                     send_email("%s %s %s %s %s" % ( \
                         ("\nSell signal!! KVO flipped negative and price is: " + str(last)), \
                         (". VWAP is: " + str(vwap)), \
                         (".\nCurrently net long with Average entry: " + str(entryprice)), \
                         (" and Breakeven at " + str(breakEvenPrice)), \
                         (".\nClosing long in profit and Going short")))
-                    report_trade("Closing long and Going short", longs+config.ordersize, shorts+config.ordersize, last)
+                    report_trade("Closing long and Going short", longs + config.ordersize, shorts + config.ordersize,
+                                 last)
                 else:
                     send_email("%s %s %s %s %s" % ( \
                         ("Sell signal!! KVO flipped negative and price is: " + str(last)), \
                         (". VWAP is: " + str(vwap)), \
                         (".\nUnderwater long with Average entry: " + str(entryprice)), \
                         (" and Breakeven at " + str(breakEvenPrice)), \
-                        (".\nSo not going short yet.")))
+                        ".\nSo not going short yet."))
             else:
-                mexorders.cancel_open_orders()
+                orders.cancel_open_orders()
                 time.sleep(1)
-                # mexorders.smart_order('Buy', longs+config.ordersize)
+                orders.smart_order('Buy', longs + config.ordersize)
                 if longs == 0:
                     send_email("%s %s %s" % ( \
                         ("\nSell signal!! KVO flipped negative and price is: " + str(last)), \
                         (". VWAP is: " + str(vwap)), \
                         (".\Going short")))
-                    report_trade("GOING short", longs+config.ordersize, shorts+config.ordersize, last)
+                    report_trade("GOING short", longs + config.ordersize, shorts + config.ordersize, last)
                 else:
                     send_email("%s %s %s" % ( \
                         ("\nSell signal!! KVO flipped negative and price is: " + str(last)), \
                         (". VWAP is: " + str(vwap)), \
-                        (".\nAdding to short")))
-                    report_trade("Adding to short", longs+config.ordersize, shorts+config.ordersize, last)
+                        ".\nAdding to short"))
+                    report_trade("Adding to short", longs + config.ordersize, shorts + config.ordersize, last)
 
 
         else:
             send_email("%s %s %s" % ( \
                 ("\nKVO flipped negative and price is: " + str(last)), \
                 (". But VWAP is: " + str(vwap)), \
-                (".\nSo not going short")))
+                ".\nSo not going short"))
 
     last_hist_positive = curr_hist_positive
 
     # now print some status info
-    mexorders.print_positions()
-    mexorders.print_open_orders()
-    balanceInfo = mexorders.get_balance()
+    orders.print_positions()
+    orders.print_open_orders()
+    balanceInfo = orders.get_balance()
     totalbal_btc, freebal_btc, totalbal_usd, freebal_usd = 0.0, 0.0, 0.0, 0.0
     if balanceInfo is not None and "BTC" in balanceInfo['total'].keys():
         totalbal_btc = balanceInfo["total"]["BTC"]

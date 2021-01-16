@@ -31,7 +31,7 @@ logfiles = {'main': 'logs/main.log',
             'debug': 'logs/debug.log'
             }
 
-ordersize = 1
+ordersize = 10
 
 # stoploss and take-profit thresholds for bracket in %
 sl = 5

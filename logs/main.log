@@ -259,3 +259,37 @@
 [2021-01-11 23:38:54,431][WARNING][mexorders] Failed to place smart order, trying again
 [2021-01-11 23:38:54,431][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
 [2021-01-11 23:45:50,331][INFO][mexorders] Logger initialized
+[2021-01-12 14:52:35,449][INFO][mexorders] Logger initialized
+[2021-01-12 14:53:22,965][INFO][mexorders] Logger initialized
+[2021-01-12 14:53:58,729][INFO][mexorders] Fetching book...
+[2021-01-12 14:53:59,453][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:53:59,453][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:53:59,915][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:53:59,915][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:00,149][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:00,150][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:00,607][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:00,607][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:00,846][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:00,846][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:01,085][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:01,085][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:01,550][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:01,551][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:01,816][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:01,816][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:02,061][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:02,062][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:02,319][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:02,319][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:02,555][WARNING][mexorders] Failed to place smart order, trying again
+[2021-01-12 14:54:02,555][WARNING][mexorders] binance {"code":-1013,"msg":"Filter failure: MIN_NOTIONAL"}
+[2021-01-12 14:54:14,693][INFO][mexorders] Logger initialized
+[2021-01-12 14:54:19,862][INFO][mexorders] Logger initialized
+[2021-01-12 14:54:50,219][INFO][mexorders] Fetching book...
+[2021-01-12 15:00:46,527][INFO][mexorders] Logger initialized
+[2021-01-12 15:01:49,445][INFO][mexorders] Logger initialized
+[2021-01-12 15:05:36,090][INFO][mexorders] Logger initialized
+[2021-01-12 17:27:51,480][INFO][mexorders] Fetching book...
+[2021-01-12 20:30:19,378][INFO][mexorders] Fetching book...
+[2021-01-16 13:02:10,202][INFO][orders] Logger initialized

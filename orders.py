@@ -80,7 +80,7 @@ def market_sell(qty, symbol=ordersym):
 def get_positions():
     positions = None
     apitry = 0
-    while (positions == None and apitry < apitrylimit):
+    while positions == None and apitry < apitrylimit:
         try:
             positions = binance.fetch_positions()
         except (ccxt.ExchangeError, ccxt.DDoSProtection, ccxt.AuthenticationError, ccxt.ExchangeNotAvailable,

@@ -17,3 +17,13 @@
 [2021-01-11 23:38:04,715][INFO][logs/trades] Trade Logger Initialized
 [2021-01-11 23:45:50,490][INFO][logs/trades] Trade Logger Initialized
 [2021-01-11 23:55:22,288][INFO][logs/trades] action: GOING LONG	ordersize: 1	stacked: 1	price: 32946.59
+[2021-01-12 14:52:36,409][INFO][logs/trades] Trade Logger Initialized
+[2021-01-12 14:53:23,137][INFO][logs/trades] Trade Logger Initialized
+[2021-01-12 14:54:14,857][INFO][logs/trades] Trade Logger Initialized
+[2021-01-12 14:54:20,044][INFO][logs/trades] Trade Logger Initialized
+[2021-01-12 15:00:46,995][INFO][logs/trades] Trade Logger Initialized
+[2021-01-12 15:01:49,621][INFO][logs/trades] Trade Logger Initialized
+[2021-01-12 15:05:36,271][INFO][logs/trades] Trade Logger Initialized
+[2021-01-12 17:28:06,927][INFO][logs/trades] action: GOING short	ordersize: 10	stacked: 10	price: 35469.11
+[2021-01-12 20:30:36,342][INFO][logs/trades] action: GOING LONG	ordersize: 10	stacked: 10	price: 33596.32
+[2021-01-16 13:02:12,051][INFO][logs/trades] Trade Logger Initialized
