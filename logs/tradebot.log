@@ -7092,3 +7092,153 @@
 [2021-01-12 23:40:46,848][INFO][__main__] Total Balance USDT: 13.9482775100, Free Balance USDT: 13.9482775100
 [2021-01-12 23:40:46,848][INFO][__main__] Loop completed, sleeping for 30 seconds
 [2021-01-16 13:02:12,032][INFO][__main__] Logger initialized
+[2021-01-16 17:45:28,698][INFO][__main__] Logger initialized
+[2021-01-16 17:45:54,013][INFO][__main__] hist is -667.25
+[2021-01-17 15:13:12,687][INFO][__main__] Logger initialized
+[2021-01-17 15:13:26,416][INFO][__main__] hist is 8684.97
+[2021-01-17 15:13:36,406][INFO][__main__] hist is 8674.08
+[2021-01-17 15:13:36,910][INFO][__main__] shorts-->>0
+[2021-01-17 15:13:36,910][INFO][__main__] longs-->>0
+[2021-01-17 15:15:01,890][INFO][__main__] Logger initialized
+[2021-01-17 15:15:15,422][INFO][__main__] hist is 11256.76
+[2021-01-17 15:15:25,206][INFO][__main__] hist is 11198.03
+[2021-01-17 15:15:25,488][INFO][__main__] shorts-->>0
+[2021-01-17 15:15:25,488][INFO][__main__] longs-->>0
+[2021-01-17 15:32:00,606][INFO][__main__] Logger initialized
+[2021-01-17 15:32:14,122][INFO][__main__] hist is 6308.41
+[2021-01-17 15:32:38,721][INFO][__main__] Logger initialized
+[2021-01-17 15:32:51,906][INFO][__main__] hist is 5519.73
+[2021-01-17 15:33:01,878][INFO][__main__] hist is 5290.62
+[2021-01-17 15:33:03,029][INFO][__main__] shorts-->>0
+[2021-01-17 15:33:03,029][INFO][__main__] longs-->>0
+[2021-01-17 15:33:52,482][INFO][__main__] Logger initialized
+[2021-01-17 15:34:05,617][INFO][__main__] hist is 4135.64
+[2021-01-17 15:34:15,686][INFO][__main__] hist is 3982.43
+[2021-01-17 15:34:16,892][INFO][__main__] shorts-->>0
+[2021-01-17 15:34:16,892][INFO][__main__] longs-->>0
+[2021-01-17 15:38:12,272][INFO][__main__] Logger initialized
+[2021-01-17 15:49:57,971][INFO][__main__] Logger initialized
+[2021-01-17 15:50:11,274][INFO][__main__] hist is 11850.33
+[2021-01-17 15:50:21,280][INFO][__main__] hist is 11919.84
+[2021-01-17 15:50:22,481][INFO][__main__] shorts-->>0
+[2021-01-17 15:50:22,481][INFO][__main__] longs-->>0
+[2021-01-17 15:52:28,998][INFO][__main__] Logger initialized
+[2021-01-17 15:52:42,081][INFO][__main__] hist is 12480.94
+[2021-01-17 15:53:07,414][INFO][__main__] Logger initialized
+[2021-01-17 15:53:20,539][INFO][__main__] hist is 12658.11
+[2021-01-17 15:53:30,527][INFO][__main__] hist is 12655.72
+[2021-01-17 15:53:31,676][INFO][__main__] shorts-->>0
+[2021-01-17 15:53:31,676][INFO][__main__] longs-->>0
+[2021-01-17 15:55:14,564][INFO][__main__] Logger initialized
+[2021-01-17 15:55:27,710][INFO][__main__] hist is 13172.91
+[2021-01-17 15:55:37,795][INFO][__main__] hist is 13194.54
+[2021-01-17 15:55:39,034][INFO][__main__] shorts-->>0
+[2021-01-17 15:55:39,034][INFO][__main__] longs-->>0
+[2021-01-17 16:00:18,938][INFO][__main__] Logger initialized
+[2021-01-17 16:00:32,234][INFO][__main__] hist is 11147.58
+[2021-01-17 16:00:42,397][INFO][__main__] Logger initialized
+[2021-01-17 16:00:55,480][INFO][__main__] hist is 11244.93
+[2021-01-17 16:01:05,703][INFO][__main__] hist is 11340.48
+[2021-01-17 16:01:06,903][INFO][__main__] shorts-->>0
+[2021-01-17 16:01:06,903][INFO][__main__] longs-->>0
+[2021-01-17 16:02:44,469][INFO][__main__] Logger initialized
+[2021-01-17 16:02:57,665][INFO][__main__] hist is 11990.81
+[2021-01-17 16:03:07,709][INFO][__main__] hist is 12034.66
+[2021-01-17 16:03:08,858][INFO][__main__] shorts-->>0
+[2021-01-17 16:03:08,858][INFO][__main__] longs-->>0
+[2021-01-17 16:03:52,617][INFO][__main__] Logger initialized
+[2021-01-17 16:04:05,713][INFO][__main__] hist is 12263.02
+[2021-01-17 16:04:15,729][INFO][__main__] hist is 12342.50
+[2021-01-17 16:04:16,904][INFO][__main__] shorts-->>0
+[2021-01-17 16:04:16,904][INFO][__main__] longs-->>0
+[2021-01-17 16:04:41,833][INFO][__main__] Logger initialized
+[2021-01-17 16:04:54,866][INFO][__main__] hist is 12475.16
+[2021-01-17 16:05:04,905][INFO][__main__] hist is 12577.21
+[2021-01-17 16:05:06,075][INFO][__main__] shorts-->>0
+[2021-01-17 16:05:06,075][INFO][__main__] longs-->>0
+[2021-01-17 16:07:28,516][INFO][__main__] Logger initialized
+[2021-01-17 16:07:41,636][INFO][__main__] hist is 13495.85
+[2021-01-17 16:07:51,617][INFO][__main__] hist is 13523.51
+[2021-01-17 16:07:52,761][INFO][__main__] shorts-->>0
+[2021-01-17 16:07:52,761][INFO][__main__] longs-->>0
+[2021-01-17 16:08:23,707][INFO][__main__] Logger initialized
+[2021-01-17 16:08:36,816][INFO][__main__] hist is 13604.21
+[2021-01-17 16:08:46,824][INFO][__main__] hist is 13621.14
+[2021-01-17 16:08:47,968][INFO][__main__] shorts-->>0
+[2021-01-17 16:08:47,968][INFO][__main__] longs-->>0
+[2021-01-17 16:09:56,220][INFO][__main__] Logger initialized
+[2021-01-17 16:10:09,272][INFO][__main__] hist is 13904.41
+[2021-01-17 16:10:19,281][INFO][__main__] hist is 13915.98
+[2021-01-17 16:10:20,442][INFO][__main__] shorts-->>0
+[2021-01-17 16:10:20,442][INFO][__main__] longs-->>0
+[2021-01-17 16:10:30,160][INFO][__main__] Logger initialized
+[2021-01-17 16:10:43,465][INFO][__main__] hist is 13996.74
+[2021-01-17 16:10:53,470][INFO][__main__] hist is 14039.79
+[2021-01-17 16:10:54,626][INFO][__main__] shorts-->>0
+[2021-01-17 16:10:54,626][INFO][__main__] longs-->>0
+[2021-01-17 16:12:20,860][INFO][__main__] Logger initialized
+[2021-01-17 16:12:34,059][INFO][__main__] hist is 14463.85
+[2021-01-17 16:12:44,066][INFO][__main__] hist is 14484.97
+[2021-01-17 16:12:45,240][INFO][__main__] shorts-->>0
+[2021-01-17 16:12:45,240][INFO][__main__] longs-->>0
+[2021-01-17 16:13:19,706][INFO][__main__] Logger initialized
+[2021-01-17 16:13:32,948][INFO][__main__] hist is 14579.28
+[2021-01-17 16:13:42,954][INFO][__main__] hist is 14685.26
+[2021-01-17 16:13:44,118][INFO][__main__] shorts-->>0
+[2021-01-17 16:13:44,118][INFO][__main__] longs-->>0
+[2021-01-17 16:15:07,401][INFO][__main__] Logger initialized
+[2021-01-17 16:15:20,655][INFO][__main__] hist is 11120.32
+[2021-01-17 16:15:30,688][INFO][__main__] hist is 11170.31
+[2021-01-17 16:15:31,850][INFO][__main__] shorts-->>0
+[2021-01-17 16:15:31,850][INFO][__main__] longs-->>0
+[2021-01-17 16:20:00,401][INFO][__main__] Logger initialized
+[2021-01-17 16:20:13,667][INFO][__main__] hist is 13004.22
+[2021-01-17 16:20:23,675][INFO][__main__] hist is 13047.53
+[2021-01-17 16:20:24,829][INFO][__main__] shorts-->>0
+[2021-01-17 16:20:24,829][INFO][__main__] longs-->>0
+[2021-01-17 16:20:26,892][INFO][__main__]  Last price is: 34883.3600, VWAP is 36137.7600
+[2021-01-17 16:20:26,893][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-17 16:20:26,893][INFO][__main__] Total Balance USDT: 0.0006920300, Free Balance USDT: 0.0006920300
+[2021-01-17 16:20:26,893][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-17 16:20:57,025][INFO][__main__] hist is 13128.91
+[2021-01-17 16:20:57,676][INFO][__main__] shorts-->>0
+[2021-01-17 16:20:57,676][INFO][__main__] longs-->>0
+[2021-01-17 16:20:59,731][INFO][__main__]  Last price is: 34856.4800, VWAP is 36137.4800
+[2021-01-17 16:20:59,731][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-17 16:20:59,731][INFO][__main__] Total Balance USDT: 0.0006920300, Free Balance USDT: 0.0006920300
+[2021-01-17 16:20:59,731][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-17 16:21:29,901][INFO][__main__] hist is 13257.76
+[2021-01-17 16:21:30,529][INFO][__main__] shorts-->>0
+[2021-01-17 16:21:30,530][INFO][__main__] longs-->>0
+[2021-01-17 16:21:33,250][INFO][__main__] Logger initialized
+[2021-01-17 16:21:46,512][INFO][__main__] hist is 13282.27
+[2021-01-17 16:22:41,246][INFO][__main__] Logger initialized
+[2021-01-17 16:22:54,323][INFO][__main__] hist is 13521.87
+[2021-01-17 16:23:11,860][INFO][__main__] Logger initialized
+[2021-01-17 16:23:24,985][INFO][__main__] hist is 13564.54
+[2021-01-17 16:24:36,541][INFO][__main__] Logger initialized
+[2021-01-17 16:24:49,633][INFO][__main__] hist is 13821.64
+[2021-01-17 16:28:43,751][INFO][__main__] Logger initialized
+[2021-01-17 16:28:56,823][INFO][__main__] hist is 14672.07
+[2021-01-17 16:29:06,837][INFO][__main__] hist is 14707.52
+[2021-01-17 16:29:07,993][INFO][__main__] shorts-->>0
+[2021-01-17 16:29:07,993][INFO][__main__] longs-->>0
+[2021-01-17 16:29:11,564][INFO][__main__]  Last price is: 34872.4200, VWAP is 36125.0500
+[2021-01-17 16:29:11,564][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-17 16:29:11,564][INFO][__main__] Total Balance USDT: 0.0006920300, Free Balance USDT: 0.0006920300
+[2021-01-17 16:29:11,564][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-17 16:30:19,593][INFO][__main__] Logger initialized
+[2021-01-17 16:30:32,667][INFO][__main__] hist is 10188.06
+[2021-01-17 16:31:42,641][INFO][__main__] Logger initialized
+[2021-01-17 16:31:56,012][INFO][__main__] hist is 10688.11
+[2021-01-17 16:32:06,026][INFO][__main__] hist is 10708.35
+[2021-01-17 16:32:06,685][INFO][__main__] shorts-->>0
+[2021-01-17 16:32:06,685][INFO][__main__] longs-->>0
+[2021-01-17 16:32:08,967][INFO][__main__]  Last price is: 34940.6000, VWAP is 36118.9400
+[2021-01-17 16:32:08,968][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-17 16:32:08,968][INFO][__main__] Total Balance USDT: 0.0006920300, Free Balance USDT: 0.0006920300
+[2021-01-17 16:32:08,968][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-17 16:46:34,986][INFO][__main__] Logger initialized
+[2021-01-17 16:46:48,429][INFO][__main__] hist is 9570.94
+[2021-01-17 16:47:03,746][INFO][__main__] Logger initialized
+[2021-01-17 16:47:17,024][INFO][__main__] hist is 9648.40

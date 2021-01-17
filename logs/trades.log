@@ -27,3 +27,36 @@
 [2021-01-12 17:28:06,927][INFO][logs/trades] action: GOING short	ordersize: 10	stacked: 10	price: 35469.11
 [2021-01-12 20:30:36,342][INFO][logs/trades] action: GOING LONG	ordersize: 10	stacked: 10	price: 33596.32
 [2021-01-16 13:02:12,051][INFO][logs/trades] Trade Logger Initialized
+[2021-01-16 17:45:28,716][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:13:12,707][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:15:01,890][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:32:00,607][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:32:38,721][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:33:52,482][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:38:12,273][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:49:57,974][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:52:29,003][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:53:07,415][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 15:55:14,564][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:00:18,939][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:00:42,397][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:02:44,469][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:03:52,617][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:04:41,834][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:07:28,516][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:08:23,707][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:09:56,220][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:10:30,161][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:12:20,861][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:13:19,707][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:15:07,401][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:20:00,402][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:21:33,251][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:22:41,246][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:23:11,860][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:24:36,541][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:28:43,752][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:30:19,594][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:31:42,641][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:46:34,986][INFO][logs/trades] Trade Logger Initialized
+[2021-01-17 16:47:03,747][INFO][logs/trades] Trade Logger Initialized

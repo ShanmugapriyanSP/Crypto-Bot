@@ -30772,3 +30772,1230 @@
 [2021-01-16 13:02:28,370][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610751747600 to end 1610782348370
 [2021-01-16 13:02:28,371][DEBUG][ExchgData.ExchgData] <class 'int'>
 [2021-01-16 13:02:28,371][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610751747600, limit 35
+[2021-01-16 17:45:28,698][INFO][__main__] Logger initialized
+[2021-01-16 17:45:43,881][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-16 17:45:43,881][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-16 17:45:43,881][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-16 17:45:43,881][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-16 17:45:43,881][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610768743200 to end 1610799343881
+[2021-01-16 17:45:43,882][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-16 17:45:43,882][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610768743200, limit 35
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] Last candle ts: 16 17:45
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 16 16:45, O: 37385.74, H: 37569, L: 37181.95, C: 37547.57, V: 719.96
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 16 17:00, O: 37547.58, H: 37838, L: 37485.10, C: 37756.93, V: 862.23
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 16 17:15, O: 37756.93, H: 37760, L: 37518.51, C: 37680.00, V: 589.00
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 16 17:30, O: 37680.00, H: 37886, L: 37652.37, C: 37750.00, V: 852.47
+[2021-01-16 17:45:54,011][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 16 17:45, O: 37750.01, H: 37763, L: 37701.78, C: 37704.35, V: 30.12
+[2021-01-16 17:45:54,013][INFO][__main__] hist is -667.25
+[2021-01-16 17:45:54,013][DEBUG][__main__] Main loop
+[2021-01-17 15:13:12,687][INFO][__main__] Logger initialized
+[2021-01-17 15:13:16,437][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:13:16,437][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:13:16,437][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:13:16,437][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:13:16,437][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610845995600 to end 1610876596437
+[2021-01-17 15:13:16,437][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:13:16,437][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610845995600, limit 35
+[2021-01-17 15:13:26,413][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:00
+[2021-01-17 15:13:26,413][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:13:26,413][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:13:26,413][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:13:26,413][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:00, O: 34765.02, H: 34868, L: 34455.00, C: 34525.56, V: 3862.78
+[2021-01-17 15:13:26,413][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:15, O: 34519.01, H: 34768, L: 34322.00, C: 34758.50, V: 4743.24
+[2021-01-17 15:13:26,413][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:13:26,413][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:13:26,414][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34447.82, V: 3998.44
+[2021-01-17 15:13:26,416][INFO][__main__] hist is 8684.97
+[2021-01-17 15:13:26,416][DEBUG][__main__] Main loop
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] Last TS: 1610875800000
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] Last ts is 1610875800000
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] Lag is 807
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610874900000 to end 1610876607321
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:13:27,321][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610874900000, limit 2
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:00
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] Last TS: 1610874900000
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 14:45
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 807 less than 900
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] Last TS: 1610875800000
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 15:00
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:00, O: 34765.02, H: 34868, L: 34455.00, C: 34525.56, V: 3862.78
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:15, O: 34519.01, H: 34768, L: 34322.00, C: 34758.50, V: 4743.24
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:13:36,405][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:13:36,406][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34421.10, V: 4027.59
+[2021-01-17 15:13:36,406][INFO][__main__] hist is 8674.08
+[2021-01-17 15:13:36,910][INFO][__main__] shorts-->>0
+[2021-01-17 15:13:36,910][INFO][__main__] longs-->>0
+[2021-01-17 15:15:01,890][INFO][__main__] Logger initialized
+[2021-01-17 15:15:05,259][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:15:05,259][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:15:05,259][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:15:05,259][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:15:05,260][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610846104500 to end 1610876705260
+[2021-01-17 15:15:05,260][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:15:05,260][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610846104500, limit 35
+[2021-01-17 15:15:15,421][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:15
+[2021-01-17 15:15:15,421][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:15:15,421][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:15:15,421][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:15:15,422][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:15, O: 34519.01, H: 34768, L: 34322.00, C: 34758.50, V: 4743.24
+[2021-01-17 15:15:15,422][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:15:15,422][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:15:15,422][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:15:15,422][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34522, L: 34433.85, C: 34436.16, V: 52.49
+[2021-01-17 15:15:15,422][INFO][__main__] hist is 11256.76
+[2021-01-17 15:15:15,422][DEBUG][__main__] Main loop
+[2021-01-17 15:15:15,952][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:15:15,953][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 15:15:15,953][DEBUG][ExchgData.ExchgData] Last TS: 1610876700000
+[2021-01-17 15:15:15,953][DEBUG][ExchgData.ExchgData] Last ts is 1610876700000
+[2021-01-17 15:15:15,953][DEBUG][ExchgData.ExchgData] Lag is 15
+[2021-01-17 15:15:15,953][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 15:15:15,953][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610875800000 to end 1610876715953
+[2021-01-17 15:15:15,953][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:15:15,953][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610875800000, limit 2
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:15
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] Last TS: 1610875800000
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:00
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 15 less than 900
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] Last TS: 1610876700000
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 15:15
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:15, O: 34519.01, H: 34768, L: 34322.00, C: 34758.50, V: 4743.24
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:15:25,205][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34522, L: 34433.85, C: 34456.83, V: 88.08
+[2021-01-17 15:15:25,206][INFO][__main__] hist is 11198.03
+[2021-01-17 15:15:25,488][INFO][__main__] shorts-->>0
+[2021-01-17 15:15:25,488][INFO][__main__] longs-->>0
+[2021-01-17 15:32:00,606][INFO][__main__] Logger initialized
+[2021-01-17 15:32:04,147][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:32:04,147][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:32:04,147][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:32:04,147][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:32:04,147][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610847123300 to end 1610877724147
+[2021-01-17 15:32:04,147][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:32:04,147][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610847123300, limit 35
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:30
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:32:14,121][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34195, L: 33903.61, C: 33924.51, V: 1782.14
+[2021-01-17 15:32:14,122][INFO][__main__] hist is 6308.41
+[2021-01-17 15:32:14,122][DEBUG][__main__] Main loop
+[2021-01-17 15:32:38,721][INFO][__main__] Logger initialized
+[2021-01-17 15:32:41,893][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:32:41,893][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:32:41,893][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:32:41,893][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:32:41,893][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610847161100 to end 1610877761893
+[2021-01-17 15:32:41,893][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:32:41,893][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610847161100, limit 35
+[2021-01-17 15:32:51,905][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:30
+[2021-01-17 15:32:51,906][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:32:51,906][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:32:51,906][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:32:51,906][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:32:51,906][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:32:51,906][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:32:51,906][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:32:51,906][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34195, L: 33863.50, C: 33995.63, V: 2414.04
+[2021-01-17 15:32:51,906][INFO][__main__] hist is 5519.73
+[2021-01-17 15:32:51,907][DEBUG][__main__] Main loop
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] Last TS: 1610877600000
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] Last ts is 1610877600000
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] Lag is 171
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610876700000 to end 1610877771907
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:32:51,907][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610876700000, limit 2
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:30
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] Last TS: 1610876700000
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:15
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 171 less than 900
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] Last TS: 1610877600000
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 15:30
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:33:01,877][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:33:01,878][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:33:01,878][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:33:01,878][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34195, L: 33863.50, C: 34010.36, V: 2573.14
+[2021-01-17 15:33:01,878][INFO][__main__] hist is 5290.62
+[2021-01-17 15:33:03,029][INFO][__main__] shorts-->>0
+[2021-01-17 15:33:03,029][INFO][__main__] longs-->>0
+[2021-01-17 15:33:52,482][INFO][__main__] Logger initialized
+[2021-01-17 15:33:55,659][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:33:55,660][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:33:55,660][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:33:55,660][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:33:55,660][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610847234900 to end 1610877835660
+[2021-01-17 15:33:55,660][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:33:55,660][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610847234900, limit 35
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:30
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:34:05,616][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34244, L: 33863.50, C: 34233.95, V: 3554.30
+[2021-01-17 15:34:05,617][INFO][__main__] hist is 4135.64
+[2021-01-17 15:34:05,617][DEBUG][__main__] Main loop
+[2021-01-17 15:34:05,617][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:34:05,617][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 15:34:05,617][DEBUG][ExchgData.ExchgData] Last TS: 1610877600000
+[2021-01-17 15:34:05,617][DEBUG][ExchgData.ExchgData] Last ts is 1610877600000
+[2021-01-17 15:34:05,617][DEBUG][ExchgData.ExchgData] Lag is 245
+[2021-01-17 15:34:05,618][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 15:34:05,618][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610876700000 to end 1610877845618
+[2021-01-17 15:34:05,618][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:34:05,618][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610876700000, limit 2
+[2021-01-17 15:34:15,685][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:30
+[2021-01-17 15:34:15,685][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 15:34:15,685][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 15:34:15,685][DEBUG][ExchgData.ExchgData] Last TS: 1610876700000
+[2021-01-17 15:34:15,685][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:15
+[2021-01-17 15:34:15,685][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 245 less than 900
+[2021-01-17 15:34:15,685][DEBUG][ExchgData.ExchgData] Last TS: 1610877600000
+[2021-01-17 15:34:15,686][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 15:30
+[2021-01-17 15:34:15,686][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:30, O: 34763.59, H: 35200, L: 34669.33, C: 34987.65, V: 5765.94
+[2021-01-17 15:34:15,686][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:34:15,686][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:34:15,686][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:34:15,686][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34244, L: 33863.50, C: 34221.90, V: 3664.66
+[2021-01-17 15:34:15,686][INFO][__main__] hist is 3982.43
+[2021-01-17 15:34:16,892][INFO][__main__] shorts-->>0
+[2021-01-17 15:34:16,892][INFO][__main__] longs-->>0
+[2021-01-17 15:38:12,272][INFO][__main__] Logger initialized
+[2021-01-17 15:38:15,365][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:38:15,365][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:38:15,365][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:38:15,365][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:38:15,365][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610847495000 to end 1610878095365
+[2021-01-17 15:38:15,365][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:38:15,365][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610847495000, limit 35
+[2021-01-17 15:49:57,971][INFO][__main__] Logger initialized
+[2021-01-17 15:50:01,328][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:50:01,328][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:50:01,328][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:50:01,328][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:50:01,328][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610848200600 to end 1610878801328
+[2021-01-17 15:50:01,328][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:50:01,328][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610848200600, limit 35
+[2021-01-17 15:50:11,270][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:45
+[2021-01-17 15:50:11,270][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:50:11,270][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:50:11,270][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:50:11,270][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:50:11,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:50:11,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:50:11,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 15:50:11,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34532, L: 34336.00, C: 34465.23, V: 1161.83
+[2021-01-17 15:50:11,274][INFO][__main__] hist is 11850.33
+[2021-01-17 15:50:11,275][DEBUG][__main__] Main loop
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] Last ts is 1610878500000
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] Lag is 311
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610877600000 to end 1610878811275
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:50:11,275][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610877600000, limit 2
+[2021-01-17 15:50:21,278][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:45
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] Last TS: 1610877600000
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:30
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 311 less than 900
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 15:45
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 15:50:21,279][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34532, L: 34336.00, C: 34482.18, V: 1215.77
+[2021-01-17 15:50:21,280][INFO][__main__] hist is 11919.84
+[2021-01-17 15:50:22,481][INFO][__main__] shorts-->>0
+[2021-01-17 15:50:22,481][INFO][__main__] longs-->>0
+[2021-01-17 15:52:28,998][INFO][__main__] Logger initialized
+[2021-01-17 15:52:32,156][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:52:32,156][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:52:32,156][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:52:32,156][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:52:32,156][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610848351800 to end 1610878952156
+[2021-01-17 15:52:32,157][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:52:32,157][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610848351800, limit 35
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:45
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 15:52:42,080][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34532, L: 34336.00, C: 34454.53, V: 1653.15
+[2021-01-17 15:52:42,081][INFO][__main__] hist is 12480.94
+[2021-01-17 15:52:42,081][DEBUG][__main__] Main loop
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] Last ts is 1610878500000
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] Lag is 462
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610877600000 to end 1610878962082
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:52:42,082][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610877600000, limit 2
+[2021-01-17 15:53:07,414][INFO][__main__] Logger initialized
+[2021-01-17 15:53:10,605][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:53:10,606][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:53:10,606][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:53:10,606][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:53:10,606][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610848390500 to end 1610878990606
+[2021-01-17 15:53:10,606][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:53:10,606][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610848390500, limit 35
+[2021-01-17 15:53:20,538][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:45
+[2021-01-17 15:53:20,538][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:53:20,538][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:53:20,538][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:53:20,538][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:53:20,538][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:53:20,538][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:53:20,539][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 15:53:20,539][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34575, L: 34336.00, C: 34571.90, V: 1924.30
+[2021-01-17 15:53:20,539][INFO][__main__] hist is 12658.11
+[2021-01-17 15:53:20,539][DEBUG][__main__] Main loop
+[2021-01-17 15:53:20,539][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:53:20,539][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 15:53:20,539][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 15:53:20,539][DEBUG][ExchgData.ExchgData] Last ts is 1610878500000
+[2021-01-17 15:53:20,539][DEBUG][ExchgData.ExchgData] Lag is 500
+[2021-01-17 15:53:20,539][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 15:53:20,540][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610877600000 to end 1610879000540
+[2021-01-17 15:53:20,540][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:53:20,540][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610877600000, limit 2
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:45
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] Last TS: 1610877600000
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:30
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 500 less than 900
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 15:45
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 15:53:30,526][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34649, L: 34336.00, C: 34649.19, V: 2175.31
+[2021-01-17 15:53:30,527][INFO][__main__] hist is 12655.72
+[2021-01-17 15:53:31,676][INFO][__main__] shorts-->>0
+[2021-01-17 15:53:31,676][INFO][__main__] longs-->>0
+[2021-01-17 15:55:14,564][INFO][__main__] Logger initialized
+[2021-01-17 15:55:17,694][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 15:55:17,694][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:55:17,694][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 15:55:17,694][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 15:55:17,694][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610848517400 to end 1610879117694
+[2021-01-17 15:55:17,694][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:55:17,694][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610848517400, limit 35
+[2021-01-17 15:55:27,709][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:45
+[2021-01-17 15:55:27,709][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 15:55:27,709][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 15:55:27,709][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 15:55:27,709][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:55:27,710][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:55:27,710][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:55:27,710][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 15:55:27,710][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34668.04, V: 3424.56
+[2021-01-17 15:55:27,710][INFO][__main__] hist is 13172.91
+[2021-01-17 15:55:27,710][DEBUG][__main__] Main loop
+[2021-01-17 15:55:27,710][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 15:55:27,710][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 15:55:27,710][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 15:55:27,711][DEBUG][ExchgData.ExchgData] Last ts is 1610878500000
+[2021-01-17 15:55:27,711][DEBUG][ExchgData.ExchgData] Lag is 627
+[2021-01-17 15:55:27,711][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 15:55:27,711][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610877600000 to end 1610879127711
+[2021-01-17 15:55:27,711][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 15:55:27,711][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610877600000, limit 2
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] Last candle ts: 17 15:45
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] Last TS: 1610877600000
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:30
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 627 less than 900
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 15:45
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 14:45, O: 34987.65, H: 35102, L: 34860.04, C: 34890.42, V: 2291.43
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 15:55:37,794][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34644.54, V: 3451.21
+[2021-01-17 15:55:37,795][INFO][__main__] hist is 13194.54
+[2021-01-17 15:55:39,034][INFO][__main__] shorts-->>0
+[2021-01-17 15:55:39,034][INFO][__main__] longs-->>0
+[2021-01-17 16:00:18,938][INFO][__main__] Logger initialized
+[2021-01-17 16:00:23,365][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:00:23,365][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:00:23,365][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:00:23,365][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:00:23,366][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610848822500 to end 1610879423365
+[2021-01-17 16:00:23,366][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:00:23,366][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610848822500, limit 35
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:00:32,233][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34709, L: 34655.04, C: 34694.62, V: 155.16
+[2021-01-17 16:00:32,234][INFO][__main__] hist is 11147.58
+[2021-01-17 16:00:32,234][DEBUG][__main__] Main loop
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] Lag is 32
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610879432234
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:00:32,234][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:00:42,397][INFO][__main__] Logger initialized
+[2021-01-17 16:00:45,555][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:00:45,555][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:00:45,555][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:00:45,555][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:00:45,555][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610848845000 to end 1610879445555
+[2021-01-17 16:00:45,555][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:00:45,555][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610848845000, limit 35
+[2021-01-17 16:00:55,479][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:00:55,479][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:00:55,479][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:00:55,479][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:00:55,479][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:00:55,480][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:00:55,480][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:00:55,480][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:00:55,480][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34730, L: 34655.04, C: 34730.00, V: 237.17
+[2021-01-17 16:00:55,480][INFO][__main__] hist is 11244.93
+[2021-01-17 16:00:55,480][DEBUG][__main__] Main loop
+[2021-01-17 16:00:55,480][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:00:55,480][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:00:55,481][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:00:55,481][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:00:55,481][DEBUG][ExchgData.ExchgData] Lag is 55
+[2021-01-17 16:00:55,481][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:00:55,481][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610879455481
+[2021-01-17 16:00:55,481][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:00:55,481][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 55 less than 900
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:01:05,702][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34800, L: 34655.04, C: 34791.89, V: 340.80
+[2021-01-17 16:01:05,703][INFO][__main__] hist is 11340.48
+[2021-01-17 16:01:06,903][INFO][__main__] shorts-->>0
+[2021-01-17 16:01:06,903][INFO][__main__] longs-->>0
+[2021-01-17 16:02:44,469][INFO][__main__] Logger initialized
+[2021-01-17 16:02:47,668][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:02:47,669][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:02:47,669][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:02:47,669][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:02:47,669][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610848967400 to end 1610879567669
+[2021-01-17 16:02:47,669][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:02:47,669][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610848967400, limit 35
+[2021-01-17 16:02:57,664][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:02:57,664][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:02:57,664][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:02:57,664][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:02:57,664][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:02:57,665][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:02:57,665][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:02:57,665][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:02:57,665][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34880, L: 34655.04, C: 34753.70, V: 1000.35
+[2021-01-17 16:02:57,665][INFO][__main__] hist is 11990.81
+[2021-01-17 16:02:57,665][DEBUG][__main__] Main loop
+[2021-01-17 16:02:57,665][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:02:57,665][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:02:57,665][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:02:57,665][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:02:57,666][DEBUG][ExchgData.ExchgData] Lag is 177
+[2021-01-17 16:02:57,666][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:02:57,666][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610879577666
+[2021-01-17 16:02:57,666][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:02:57,666][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:03:07,708][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:03:07,708][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:03:07,708][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:03:07,708][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:03:07,708][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:03:07,708][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 177 less than 900
+[2021-01-17 16:03:07,708][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:03:07,708][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:03:07,709][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:03:07,709][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:03:07,709][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:03:07,709][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:03:07,709][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34880, L: 34655.04, C: 34724.37, V: 1042.68
+[2021-01-17 16:03:07,709][INFO][__main__] hist is 12034.66
+[2021-01-17 16:03:08,858][INFO][__main__] shorts-->>0
+[2021-01-17 16:03:08,858][INFO][__main__] longs-->>0
+[2021-01-17 16:03:52,617][INFO][__main__] Logger initialized
+[2021-01-17 16:03:55,754][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:03:55,755][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:03:55,755][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:03:55,755][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:03:55,755][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849034900 to end 1610879635755
+[2021-01-17 16:03:55,755][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:03:55,755][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849034900, limit 35
+[2021-01-17 16:04:05,712][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:04:05,712][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:04:05,712][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:04:05,712][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:04:05,713][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:04:05,713][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:04:05,713][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:04:05,713][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:04:05,713][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34880, L: 34655.04, C: 34705.41, V: 1263.44
+[2021-01-17 16:04:05,713][INFO][__main__] hist is 12263.02
+[2021-01-17 16:04:05,713][DEBUG][__main__] Main loop
+[2021-01-17 16:04:05,713][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:04:05,714][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:04:05,714][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:04:05,714][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:04:05,714][DEBUG][ExchgData.ExchgData] Lag is 245
+[2021-01-17 16:04:05,714][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:04:05,714][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610879645714
+[2021-01-17 16:04:05,714][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:04:05,714][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 245 less than 900
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:04:15,728][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:04:15,729][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:04:15,729][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34880, L: 34655.04, C: 34779.05, V: 1340.38
+[2021-01-17 16:04:15,729][INFO][__main__] hist is 12342.50
+[2021-01-17 16:04:16,904][INFO][__main__] shorts-->>0
+[2021-01-17 16:04:16,904][INFO][__main__] longs-->>0
+[2021-01-17 16:04:41,833][INFO][__main__] Logger initialized
+[2021-01-17 16:04:44,918][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:04:44,918][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:04:44,918][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:04:44,918][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:04:44,918][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849084400 to end 1610879684918
+[2021-01-17 16:04:44,918][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:04:44,918][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849084400, limit 35
+[2021-01-17 16:04:54,864][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:04:54,865][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:04:54,865][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:04:54,865][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:04:54,865][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:04:54,865][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:04:54,865][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:04:54,865][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:04:54,865][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34880, L: 34655.04, C: 34753.28, V: 1468.93
+[2021-01-17 16:04:54,866][INFO][__main__] hist is 12475.16
+[2021-01-17 16:04:54,866][DEBUG][__main__] Main loop
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] Lag is 294
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610879694866
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:04:54,866][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 294 less than 900
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:05:04,904][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34880, L: 34655.04, C: 34772.13, V: 1567.93
+[2021-01-17 16:05:04,905][INFO][__main__] hist is 12577.21
+[2021-01-17 16:05:06,075][INFO][__main__] shorts-->>0
+[2021-01-17 16:05:06,075][INFO][__main__] longs-->>0
+[2021-01-17 16:07:28,516][INFO][__main__] Logger initialized
+[2021-01-17 16:07:31,608][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:07:31,608][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:07:31,608][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:07:31,609][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:07:31,609][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849250900 to end 1610879851609
+[2021-01-17 16:07:31,609][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:07:31,609][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849250900, limit 35
+[2021-01-17 16:07:41,635][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:07:41,635][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:07:41,636][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:07:41,636][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:07:41,636][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:07:41,636][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:07:41,636][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:07:41,636][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:07:41,636][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34655.04, C: 34798.74, V: 2572.81
+[2021-01-17 16:07:41,636][INFO][__main__] hist is 13495.85
+[2021-01-17 16:07:41,636][DEBUG][__main__] Main loop
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] Lag is 461
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610879861637
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:07:41,637][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 461 less than 900
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:07:51,616][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:07:51,617][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:07:51,617][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34655.04, C: 34797.08, V: 2601.07
+[2021-01-17 16:07:51,617][INFO][__main__] hist is 13523.51
+[2021-01-17 16:07:52,761][INFO][__main__] shorts-->>0
+[2021-01-17 16:07:52,761][INFO][__main__] longs-->>0
+[2021-01-17 16:08:23,707][INFO][__main__] Logger initialized
+[2021-01-17 16:08:26,815][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:08:26,816][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:08:26,816][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:08:26,816][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:08:26,816][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849306700 to end 1610879906816
+[2021-01-17 16:08:26,816][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:08:26,816][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849306700, limit 35
+[2021-01-17 16:08:36,815][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:08:36,815][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:08:36,815][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:08:36,815][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:08:36,815][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:08:36,815][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:08:36,816][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:08:36,816][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:08:36,816][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34655.04, C: 34787.00, V: 2683.58
+[2021-01-17 16:08:36,816][INFO][__main__] hist is 13604.21
+[2021-01-17 16:08:36,816][DEBUG][__main__] Main loop
+[2021-01-17 16:08:36,816][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:08:36,816][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:08:36,816][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:08:36,816][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:08:36,817][DEBUG][ExchgData.ExchgData] Lag is 516
+[2021-01-17 16:08:36,817][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:08:36,817][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610879916817
+[2021-01-17 16:08:36,817][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:08:36,817][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 516 less than 900
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:08:46,823][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34655.04, C: 34794.60, V: 2700.89
+[2021-01-17 16:08:46,824][INFO][__main__] hist is 13621.14
+[2021-01-17 16:08:47,968][INFO][__main__] shorts-->>0
+[2021-01-17 16:08:47,968][INFO][__main__] longs-->>0
+[2021-01-17 16:09:56,220][INFO][__main__] Logger initialized
+[2021-01-17 16:09:59,313][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:09:59,313][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:09:59,313][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:09:59,313][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:09:59,313][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849398500 to end 1610879999313
+[2021-01-17 16:09:59,314][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:09:59,314][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849398500, limit 35
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:10:09,271][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34655.04, C: 34776.23, V: 2990.97
+[2021-01-17 16:10:09,272][INFO][__main__] hist is 13904.41
+[2021-01-17 16:10:09,272][DEBUG][__main__] Main loop
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] Lag is 609
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610880009272
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:10:09,272][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:10:19,279][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 609 less than 900
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:10:19,280][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34655.04, C: 34764.34, V: 3002.84
+[2021-01-17 16:10:19,281][INFO][__main__] hist is 13915.98
+[2021-01-17 16:10:20,442][INFO][__main__] shorts-->>0
+[2021-01-17 16:10:20,442][INFO][__main__] longs-->>0
+[2021-01-17 16:10:30,160][INFO][__main__] Logger initialized
+[2021-01-17 16:10:33,501][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:10:33,501][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:10:33,501][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:10:33,501][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:10:33,501][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849432700 to end 1610880033501
+[2021-01-17 16:10:33,501][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:10:33,501][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849432700, limit 35
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:10:43,464][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34655.04, C: 34728.22, V: 3085.67
+[2021-01-17 16:10:43,465][INFO][__main__] hist is 13996.74
+[2021-01-17 16:10:43,465][DEBUG][__main__] Main loop
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] Lag is 643
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610880043465
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:10:43,465][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 643 less than 900
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:10:53,469][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34655.04, C: 34708.00, V: 3129.85
+[2021-01-17 16:10:53,470][INFO][__main__] hist is 14039.79
+[2021-01-17 16:10:54,626][INFO][__main__] shorts-->>0
+[2021-01-17 16:10:54,626][INFO][__main__] longs-->>0
+[2021-01-17 16:12:20,860][INFO][__main__] Logger initialized
+[2021-01-17 16:12:24,113][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:12:24,113][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:12:24,114][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:12:24,114][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:12:24,114][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849543400 to end 1610880144114
+[2021-01-17 16:12:24,114][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:12:24,114][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849543400, limit 35
+[2021-01-17 16:12:34,057][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:12:34,058][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:12:34,058][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:12:34,058][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:12:34,058][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:12:34,058][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:12:34,058][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:12:34,058][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:12:34,058][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34664.10, V: 3713.97
+[2021-01-17 16:12:34,059][INFO][__main__] hist is 14463.85
+[2021-01-17 16:12:34,059][DEBUG][__main__] Main loop
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] Lag is 754
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610880154059
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:12:34,059][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:12:44,065][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:12:44,065][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:12:44,065][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:12:44,065][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:12:44,065][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:12:44,065][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 754 less than 900
+[2021-01-17 16:12:44,065][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:12:44,065][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:12:44,066][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:12:44,066][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:12:44,066][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:12:44,066][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:12:44,066][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34666.19, V: 3736.62
+[2021-01-17 16:12:44,066][INFO][__main__] hist is 14484.97
+[2021-01-17 16:12:45,240][INFO][__main__] shorts-->>0
+[2021-01-17 16:12:45,240][INFO][__main__] longs-->>0
+[2021-01-17 16:13:19,706][INFO][__main__] Logger initialized
+[2021-01-17 16:13:22,995][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:13:22,995][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:13:22,995][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:13:22,995][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:13:22,995][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849602800 to end 1610880202995
+[2021-01-17 16:13:22,995][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:13:22,995][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849602800, limit 35
+[2021-01-17 16:13:32,947][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:13:32,947][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:13:32,947][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:13:32,947][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:13:32,947][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:13:32,947][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:13:32,947][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:13:32,948][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:13:32,948][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34676.93, V: 3837.82
+[2021-01-17 16:13:32,948][INFO][__main__] hist is 14579.28
+[2021-01-17 16:13:32,948][DEBUG][__main__] Main loop
+[2021-01-17 16:13:32,948][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:13:32,948][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:13:32,948][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:13:32,948][DEBUG][ExchgData.ExchgData] Last ts is 1610879400000
+[2021-01-17 16:13:32,948][DEBUG][ExchgData.ExchgData] Lag is 812
+[2021-01-17 16:13:32,949][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:13:32,949][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610878500000 to end 1610880212949
+[2021-01-17 16:13:32,949][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:13:32,949][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610878500000, limit 2
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:00
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] Last TS: 1610878500000
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 15:45
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 812 less than 900
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:00
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:00, O: 34890.44, H: 34899, L: 34374.37, C: 34517.00, V: 4399.05
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:13:42,953][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34700.00, V: 3951.62
+[2021-01-17 16:13:42,954][INFO][__main__] hist is 14685.26
+[2021-01-17 16:13:44,118][INFO][__main__] shorts-->>0
+[2021-01-17 16:13:44,118][INFO][__main__] longs-->>0
+[2021-01-17 16:15:07,401][INFO][__main__] Logger initialized
+[2021-01-17 16:15:10,693][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:15:10,693][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:15:10,693][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:15:10,693][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:15:10,693][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610849709900 to end 1610880310693
+[2021-01-17 16:15:10,693][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:15:10,693][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610849709900, limit 35
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:15:20,654][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 34826, L: 34769.54, C: 34824.98, V: 86.22
+[2021-01-17 16:15:20,655][INFO][__main__] hist is 11120.32
+[2021-01-17 16:15:20,655][DEBUG][__main__] Main loop
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] Last ts is 1610880300000
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] Lag is 20
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610879400000 to end 1610880320655
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:15:20,655][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610879400000, limit 2
+[2021-01-17 16:15:30,686][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 16:00
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 20 less than 900
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:15
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:15:30,687][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 34826, L: 34769.54, C: 34824.01, V: 125.19
+[2021-01-17 16:15:30,688][INFO][__main__] hist is 11170.31
+[2021-01-17 16:15:31,850][INFO][__main__] shorts-->>0
+[2021-01-17 16:15:31,850][INFO][__main__] longs-->>0
+[2021-01-17 16:20:00,401][INFO][__main__] Logger initialized
+[2021-01-17 16:20:03,718][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:20:03,718][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:20:03,718][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:20:03,718][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:20:03,718][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610850003300 to end 1610880603718
+[2021-01-17 16:20:03,718][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:20:03,718][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610850003300, limit 35
+[2021-01-17 16:20:13,666][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:20:13,666][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:20:13,666][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:20:13,666][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:20:13,666][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:20:13,666][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:20:13,666][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:20:13,667][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:20:13,667][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34769.54, C: 34884.01, V: 2069.00
+[2021-01-17 16:20:13,667][INFO][__main__] hist is 13004.22
+[2021-01-17 16:20:13,667][DEBUG][__main__] Main loop
+[2021-01-17 16:20:13,667][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:20:13,667][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:20:13,667][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:20:13,667][DEBUG][ExchgData.ExchgData] Last ts is 1610880300000
+[2021-01-17 16:20:13,667][DEBUG][ExchgData.ExchgData] Lag is 313
+[2021-01-17 16:20:13,668][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:20:13,668][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610879400000 to end 1610880613668
+[2021-01-17 16:20:13,668][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:20:13,668][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610879400000, limit 2
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 16:00
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 313 less than 900
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:15
+[2021-01-17 16:20:23,674][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:20:23,675][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:20:23,675][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:20:23,675][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:20:23,675][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34769.54, C: 34878.30, V: 2114.33
+[2021-01-17 16:20:23,675][INFO][__main__] hist is 13047.53
+[2021-01-17 16:20:24,829][INFO][__main__] shorts-->>0
+[2021-01-17 16:20:24,829][INFO][__main__] longs-->>0
+[2021-01-17 16:20:26,892][INFO][__main__]  Last price is: 34883.3600, VWAP is 36137.7600
+[2021-01-17 16:20:26,893][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-17 16:20:26,893][INFO][__main__] Total Balance USDT: 0.0006920300, Free Balance USDT: 0.0006920300
+[2021-01-17 16:20:26,893][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-17 16:20:56,896][DEBUG][__main__] Main loop
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] Last ts is 1610880300000
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] Lag is 356
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610879400000 to end 1610880656896
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:20:56,896][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610879400000, limit 2
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 16:00
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 356 less than 900
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:15
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:20:57,024][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34769.54, C: 34851.10, V: 2199.54
+[2021-01-17 16:20:57,025][INFO][__main__] hist is 13128.91
+[2021-01-17 16:20:57,676][INFO][__main__] shorts-->>0
+[2021-01-17 16:20:57,676][INFO][__main__] longs-->>0
+[2021-01-17 16:20:59,731][INFO][__main__]  Last price is: 34856.4800, VWAP is 36137.4800
+[2021-01-17 16:20:59,731][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-17 16:20:59,731][INFO][__main__] Total Balance USDT: 0.0006920300, Free Balance USDT: 0.0006920300
+[2021-01-17 16:20:59,731][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-17 16:21:29,746][DEBUG][__main__] Main loop
+[2021-01-17 16:21:29,746][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:21:29,746][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:21:29,746][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:21:29,746][DEBUG][ExchgData.ExchgData] Last ts is 1610880300000
+[2021-01-17 16:21:29,746][DEBUG][ExchgData.ExchgData] Lag is 389
+[2021-01-17 16:21:29,746][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:21:29,746][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610879400000 to end 1610880689746
+[2021-01-17 16:21:29,747][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:21:29,747][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610879400000, limit 2
+[2021-01-17 16:21:29,900][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:21:29,900][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:21:29,900][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:21:29,900][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:21:29,900][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 16:00
+[2021-01-17 16:21:29,900][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 389 less than 900
+[2021-01-17 16:21:29,900][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:21:29,900][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:15
+[2021-01-17 16:21:29,901][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:21:29,901][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:21:29,901][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:21:29,901][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:21:29,901][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34769.54, C: 34946.20, V: 2334.58
+[2021-01-17 16:21:29,901][INFO][__main__] hist is 13257.76
+[2021-01-17 16:21:30,529][INFO][__main__] shorts-->>0
+[2021-01-17 16:21:30,530][INFO][__main__] longs-->>0
+[2021-01-17 16:21:33,250][INFO][__main__] Logger initialized
+[2021-01-17 16:21:36,541][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:21:36,542][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:21:36,542][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:21:36,542][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:21:36,542][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610850096000 to end 1610880696542
+[2021-01-17 16:21:36,542][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:21:36,542][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610850096000, limit 35
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:21:46,511][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34769.54, C: 34903.54, V: 2360.28
+[2021-01-17 16:21:46,512][INFO][__main__] hist is 13282.27
+[2021-01-17 16:21:46,512][DEBUG][__main__] Main loop
+[2021-01-17 16:22:41,246][INFO][__main__] Logger initialized
+[2021-01-17 16:22:44,354][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:22:44,354][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:22:44,354][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:22:44,354][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:22:44,354][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610850163500 to end 1610880764354
+[2021-01-17 16:22:44,354][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:22:44,354][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610850163500, limit 35
+[2021-01-17 16:22:54,322][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:22:54,322][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:22:54,322][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:22:54,322][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:22:54,322][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:22:54,322][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:22:54,323][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:22:54,323][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:22:54,323][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34769.54, C: 34888.90, V: 2611.80
+[2021-01-17 16:22:54,323][INFO][__main__] hist is 13521.87
+[2021-01-17 16:22:54,323][DEBUG][__main__] Main loop
+[2021-01-17 16:23:11,860][INFO][__main__] Logger initialized
+[2021-01-17 16:23:15,035][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:23:15,035][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:23:15,035][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:23:15,035][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:23:15,035][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610850195000 to end 1610880795035
+[2021-01-17 16:23:15,035][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:23:15,035][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610850195000, limit 35
+[2021-01-17 16:23:24,984][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:23:24,984][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:23:24,984][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:23:24,984][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:23:24,985][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:23:24,985][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:23:24,985][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:23:24,985][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:23:24,985][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34769.54, C: 34958.07, V: 2656.64
+[2021-01-17 16:23:24,985][INFO][__main__] hist is 13564.54
+[2021-01-17 16:23:24,985][DEBUG][__main__] Main loop
+[2021-01-17 16:24:36,541][INFO][__main__] Logger initialized
+[2021-01-17 16:24:39,659][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:24:39,659][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:24:39,659][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:24:39,659][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:24:39,659][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610850279600 to end 1610880879659
+[2021-01-17 16:24:39,659][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:24:39,659][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610850279600, limit 35
+[2021-01-17 16:24:49,632][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:24:49,632][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:24:49,632][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:24:49,632][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:24:49,632][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:24:49,632][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:24:49,632][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:24:49,633][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:24:49,633][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34769.54, C: 34877.75, V: 2927.14
+[2021-01-17 16:24:49,633][INFO][__main__] hist is 13821.64
+[2021-01-17 16:24:49,633][DEBUG][__main__] Main loop
+[2021-01-17 16:28:43,751][INFO][__main__] Logger initialized
+[2021-01-17 16:28:46,876][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:28:46,876][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:28:46,876][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:28:46,876][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:28:46,876][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610850526200 to end 1610881126876
+[2021-01-17 16:28:46,876][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:28:46,876][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610850526200, limit 35
+[2021-01-17 16:28:56,822][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:28:56,822][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:28:56,822][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:28:56,822][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:28:56,822][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:28:56,822][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:28:56,823][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:28:56,823][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:28:56,823][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34741.83, C: 34895.78, V: 3936.05
+[2021-01-17 16:28:56,823][INFO][__main__] hist is 14672.07
+[2021-01-17 16:28:56,823][DEBUG][__main__] Main loop
+[2021-01-17 16:28:56,823][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:28:56,823][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:28:56,823][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:28:56,823][DEBUG][ExchgData.ExchgData] Last ts is 1610880300000
+[2021-01-17 16:28:56,824][DEBUG][ExchgData.ExchgData] Lag is 836
+[2021-01-17 16:28:56,824][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:28:56,824][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610879400000 to end 1610881136824
+[2021-01-17 16:28:56,824][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:28:56,824][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610879400000, limit 2
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:15
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] Last TS: 1610879400000
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 16:00
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 836 less than 900
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:15
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:15, O: 34517.00, H: 34587, L: 34001.00, C: 34195.00, V: 6938.39
+[2021-01-17 16:29:06,836][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:29:06,837][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:29:06,837][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:29:06,837][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34741.83, C: 34877.61, V: 3974.71
+[2021-01-17 16:29:06,837][INFO][__main__] hist is 14707.52
+[2021-01-17 16:29:07,993][INFO][__main__] shorts-->>0
+[2021-01-17 16:29:07,993][INFO][__main__] longs-->>0
+[2021-01-17 16:29:11,564][INFO][__main__]  Last price is: 34872.4200, VWAP is 36125.0500
+[2021-01-17 16:29:11,564][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-17 16:29:11,564][INFO][__main__] Total Balance USDT: 0.0006920300, Free Balance USDT: 0.0006920300
+[2021-01-17 16:29:11,564][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-17 16:30:19,593][INFO][__main__] Logger initialized
+[2021-01-17 16:30:22,678][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:30:22,678][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:30:22,679][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:30:22,679][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:30:22,679][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610850622500 to end 1610881222679
+[2021-01-17 16:30:22,679][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:30:22,679][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610850622500, limit 35
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:30
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34741.83, C: 34819.75, V: 4050.74
+[2021-01-17 16:30:32,666][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:30, O: 34819.76, H: 34856, L: 34804.32, C: 34830.01, V: 77.16
+[2021-01-17 16:30:32,667][INFO][__main__] hist is 10188.06
+[2021-01-17 16:30:32,667][DEBUG][__main__] Main loop
+[2021-01-17 16:31:42,641][INFO][__main__] Logger initialized
+[2021-01-17 16:31:46,043][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:31:46,043][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:31:46,043][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:31:46,043][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:31:46,043][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610850705300 to end 1610881306043
+[2021-01-17 16:31:46,043][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:31:46,043][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610850705300, limit 35
+[2021-01-17 16:31:56,011][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:30
+[2021-01-17 16:31:56,012][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:31:56,012][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:31:56,012][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:31:56,012][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:31:56,012][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:31:56,012][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:31:56,012][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34741.83, C: 34819.75, V: 4050.74
+[2021-01-17 16:31:56,012][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:30, O: 34819.76, H: 34978, L: 34792.65, C: 34912.22, V: 364.23
+[2021-01-17 16:31:56,012][INFO][__main__] hist is 10688.11
+[2021-01-17 16:31:56,013][DEBUG][__main__] Main loop
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] updating candles for 15m, lookback 34
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] Last TS: 1610881200000
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] Last ts is 1610881200000
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] Lag is 116
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] current length for tf 15m is 34
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] Limit 2 candles from start 1610880300000 to end 1610881316650
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:31:56,650][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610880300000, limit 2
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:30
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] Fetched 2 candles
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] Candles length is 2
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] Last TS: 1610880300000
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] Old candles last ts now 17 16:15
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] Refreshing last candle for lag 116 less than 900
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] Last TS: 1610881200000
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] Update candles last ts now 17 16:30
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:30, O: 34195.47, H: 34535, L: 33863.50, C: 34445.21, V: 7707.75
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34741.83, C: 34819.75, V: 4050.74
+[2021-01-17 16:32:06,025][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:30, O: 34819.76, H: 34978, L: 34792.65, C: 34945.00, V: 381.75
+[2021-01-17 16:32:06,026][INFO][__main__] hist is 10708.35
+[2021-01-17 16:32:06,685][INFO][__main__] shorts-->>0
+[2021-01-17 16:32:06,685][INFO][__main__] longs-->>0
+[2021-01-17 16:32:08,967][INFO][__main__]  Last price is: 34940.6000, VWAP is 36118.9400
+[2021-01-17 16:32:08,968][INFO][__main__] Total Balance BTC: 0.0000000000, Free Balance BTC: 0.0000000000
+[2021-01-17 16:32:08,968][INFO][__main__] Total Balance USDT: 0.0006920300, Free Balance USDT: 0.0006920300
+[2021-01-17 16:32:08,968][INFO][__main__] Loop completed, sleeping for 30 seconds
+[2021-01-17 16:46:34,986][INFO][__main__] Logger initialized
+[2021-01-17 16:46:38,512][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:46:38,512][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:46:38,512][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:46:38,512][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:46:38,512][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610851598100 to end 1610882198512
+[2021-01-17 16:46:38,512][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:46:38,512][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610851598100, limit 35
+[2021-01-17 16:46:48,428][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:45
+[2021-01-17 16:46:48,428][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:46:48,428][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:46:48,428][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:46:48,428][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:46:48,428][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:46:48,428][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34741.83, C: 34819.75, V: 4050.74
+[2021-01-17 16:46:48,429][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:30, O: 34819.76, H: 35043, L: 34777.18, C: 35036.61, V: 2686.39
+[2021-01-17 16:46:48,429][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:45, O: 35031.65, H: 35100, L: 34949.04, C: 34974.18, V: 658.67
+[2021-01-17 16:46:48,429][INFO][__main__] hist is 9570.94
+[2021-01-17 16:46:48,429][DEBUG][__main__] Main loop
+[2021-01-17 16:47:03,746][INFO][__main__] Logger initialized
+[2021-01-17 16:47:07,074][INFO][ExchgData.ExchgData] Logger initialized
+[2021-01-17 16:47:07,074][DEBUG][ExchgData.ExchgData] Update candles for 15m, lookback 34
+[2021-01-17 16:47:07,074][DEBUG][ExchgData.ExchgData] tf 15m not in candles keys
+[2021-01-17 16:47:07,074][DEBUG][ExchgData.ExchgData] Preloading candles with lookback 34, lookback_s 30600
+[2021-01-17 16:47:07,074][DEBUG][ExchgData.ExchgData] Limit 35 candles from start 1610851626900 to end 1610882227074
+[2021-01-17 16:47:07,074][DEBUG][ExchgData.ExchgData] <class 'int'>
+[2021-01-17 16:47:07,074][DEBUG][ExchgData.ExchgData] Fetching 15m candles with start ts 1610851626900, limit 35
+[2021-01-17 16:47:17,023][DEBUG][ExchgData.ExchgData] Last candle ts: 17 16:45
+[2021-01-17 16:47:17,023][DEBUG][ExchgData.ExchgData] Fetched 34 candles
+[2021-01-17 16:47:17,023][DEBUG][ExchgData.ExchgData] Current candles: 34
+[2021-01-17 16:47:17,023][DEBUG][ExchgData.ExchgData] Preloading candles for tf 15m, lookback 34
+[2021-01-17 16:47:17,023][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 15:45, O: 34445.22, H: 34791, L: 34336.00, C: 34674.99, V: 4232.07
+[2021-01-17 16:47:17,023][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:00, O: 34674.99, H: 34917, L: 34621.12, C: 34771.53, V: 4171.92
+[2021-01-17 16:47:17,024][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:15, O: 34770.90, H: 35102, L: 34741.83, C: 34819.75, V: 4050.74
+[2021-01-17 16:47:17,024][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:30, O: 34819.76, H: 35043, L: 34777.18, C: 35036.61, V: 2686.39
+[2021-01-17 16:47:17,024][DEBUG][ExchgData.ExchgData] CANDLES(15m), T: 17 16:45, O: 35031.65, H: 35100, L: 34910.00, C: 34930.27, V: 744.47
+[2021-01-17 16:47:17,024][INFO][__main__] hist is 9648.40
+[2021-01-17 16:47:17,025][DEBUG][__main__] Main loop

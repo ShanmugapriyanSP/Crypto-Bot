@@ -59,8 +59,12 @@ class ExchgData:
             if exchange == 'binance':
                 self.exchange = ccxt.binance({
                     'rateLimit': 10000,
-                    'enableRateLimit': True
+                    'enableRateLimit': True,
+                    'options': {
+                        'defaultType': 'future',
+                    }
                 })
+                self.exchange.load_markets()
             self.symbol = symbol
         self.logger = logging.getLogger(__name__ + '.ExchgData')
         self.logger.setLevel(logging.DEBUG)

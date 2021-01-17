@@ -85,11 +85,13 @@ while [1]:
     longs = orders.get_position_size('long')
     log.info(f'shorts-->>{shorts}')
     log.info(f'longs-->>{longs}')
-    last, vwap = orders.get_last_and_vwap();
+    last, vwap = orders.get_last_and_vwap()
     # buybelow   =  10000
     buybelow = vwap
     # sellabove  =  1000
     sellabove = vwap
+    # orders.smart_order('Buy', shorts + config.ordersize)
+    # orders.create_leverage_order(binance_data.exchange, 5)
     # if 1d kvo has flipped, flip positions
     if curr_hist_positive and not last_hist_positive:
         print('Inside if')
